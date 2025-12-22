@@ -1,0 +1,27 @@
+>class,zm_mod_level
+>group,modtools
+
+xmodel,skybox_default_day
+material,luts_t7_default
+	
+// BSP
+col_map,maps/zm/zm_test_map.d3dbsp
+gfx_map,maps/zm/zm_test_map.d3dbsp
+
+// Mod menu test
+scriptparsetree,scripts/zm/kcnet_test/menu_util.gsc
+scriptparsetree,scripts/zm/kcnet_test/menu_functions.gsc
+scriptparsetree,scripts/zm/kcnet_test/zombie_counter.gsc
+
+// Audio
+sound,zm_test_map
+
+// Main scripts
+scriptparsetree,scripts/zm/zm_test_map.gsc
+scriptparsetree,scripts/zm/zm_test_map.csc
+scriptparsetree,scripts/zm/zm_test_map.gsh
+
+// New
+scriptparsetree,scripts/zm/zm_functions.gsc
+	
+	

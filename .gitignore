@@ -1,0 +1,4 @@
+
+# These files should be built with Radiant
+zone/*.ff
+zone/*.xpak
