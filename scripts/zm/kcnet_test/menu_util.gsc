@@ -90,6 +90,8 @@ function initMenuOpts()
 
     self addOpt("test_mods", "Open all doors", &menu_functions::func_openAllDoors);
 
+    self addOpt("test_mods", "Toggle no target", &menu_functions::func_toggleNoTarget);
+
     self addOpt("test_mods", "Print zombie count", &menu_functions::func_getAmountOfZombies);
 
     self addOpt("test_mods", "Turn on zombie counter", &menu_functions::func_turnOnZombieCounter);

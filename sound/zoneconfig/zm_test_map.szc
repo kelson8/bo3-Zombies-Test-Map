@@ -19,6 +19,22 @@
  "Filename" : "user_aliases.csv",
  "Specs" : [ ] 
 },
+
+{
+	"Type" : "ALIAS",
+	"Name" : "zm_theater_vox",
+	"Filename" : "zm_theater_vox.csv",
+  "Specs" : [ ] 
+},
+
+
+
+{
+"Type" : "ALIAS",
+"Name" : "zmb_sound_fixes",
+"Filename" : "zmb_sound_fixes.csv",
+"Specs" : [ ]
+},
 {
  "Type" : "AMBIENT",
  "Name" : "ambient_mod",

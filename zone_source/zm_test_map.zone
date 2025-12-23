@@ -23,5 +23,6 @@ scriptparsetree,scripts/zm/zm_test_map.gsh
 
 // New
 scriptparsetree,scripts/zm/zm_functions.gsc
-	
-	
+
+// Voice lines
+//stringtable,gamedata/audio/zm/zm_vox.csv

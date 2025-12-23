@@ -109,6 +109,7 @@ function on_player_spawned()
 	self give_points(10000);
 }
 
+// Give the player a set amount of points.
 function give_points(amount)
 {
 	self zm_score::add_to_player_score(amount);

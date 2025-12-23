@@ -313,18 +313,21 @@ function func_takePoints(amount)
 // 	}
 // }
 
-// No target, makes it to where the zombies won't come after you
-// function func_noTarget()
-// {
-// 	if (!self IsNoTarget())
-// 	{
-// 		self IsNoTarget();
-// 	}
-// 	else
-// 	{
-// 		self !IsNoTarget();
-// 	}
-// }
+// Toggle notarget on the player, makes it to where the zombies ignore them if enabled.
+// https://github.com/mcabcon/EnCoReV20/blob/main/main.gsc#L2265-L2277
+function func_toggleNoTarget()
+{
+    if(!self.ignoreme)
+    {
+        self IPrintLn("No Target ^2ON");
+        self.ignoreme = true;
+    }
+    else
+    {
+        self IPrintLn("No Target ^1OFF");
+        self.ignoreme = false;
+    }
+}
 
 // I don't know how to use this one.
 function func_setMusicState()
