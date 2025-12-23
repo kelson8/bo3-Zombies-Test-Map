@@ -107,6 +107,10 @@ function main()
 	if(high_start_points)
 	{
 		level.player_starting_points = 10000;
+	} 
+	else 
+	{
+		level.player_starting_points = 2000;
 	}
 	
 

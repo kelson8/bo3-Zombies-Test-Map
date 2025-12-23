@@ -2,3 +2,6 @@
 # These files should be built with Radiant
 zone/*.ff
 zone/*.xpak
+
+# I will modify this later
+perks/

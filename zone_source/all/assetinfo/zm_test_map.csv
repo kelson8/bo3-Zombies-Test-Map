@@ -270,8 +270,8 @@ index,type,name,resident,streamed,parentStack
 269,techset,create_lut2dv#da7372ff,24,0,|luts_t7_default|material|maps/zm/zm_test_map.d3dbsp|col_map|zone_source/zm_test_map.zone|csv
 270,image,img_luts_curve_blend,4194405,0,|luts_t7_default|material|maps/zm/zm_test_map.d3dbsp|col_map|zone_source/zm_test_map.zone|csv
 271,material,luts_t7_default,48,0,|maps/zm/zm_test_map.d3dbsp|col_map|zone_source/zm_test_map.zone|csv
-272,map_ents,maps/zm/zm_test_map.d3dbsp,17711,0,|maps/zm/zm_test_map.d3dbsp|col_map|zone_source/zm_test_map.zone|csv
-273,techset,mc/lit_micro_tile_blend_advanced#e6142445,699808,0,|mc/mtl_p7_zm_der_magic_box_metal|material|p7_zm_der_magic_box|xmodel|zmcore_magicbox|zbarrier|maps/zm/zm_test_map.d3dbsp|col_map|zone_source/zm_test_map.zone|csv
+272,map_ents,maps/zm/zm_test_map.d3dbsp,18771,0,|maps/zm/zm_test_map.d3dbsp|col_map|zone_source/zm_test_map.zone|csv
+273,techset,mc/lit_micro_tile_blend_advanced#e6142445,699812,0,|mc/mtl_p7_zm_der_magic_box_metal|material|p7_zm_der_magic_box|xmodel|zmcore_magicbox|zbarrier|maps/zm/zm_test_map.d3dbsp|col_map|zone_source/zm_test_map.zone|csv
 274,image,i_mtl_p7_zm_pswitch_m,94,742056,|mc/mtl_p7_zm_der_pswitch_body_plastic|material|p7_zm_der_pswitch_body|xmodel|maps/zm/zm_test_map.d3dbsp|gfx_map|zone_source/zm_test_map.zone|csv
 275,image,i_mtl_p7_zm_pswitch_o,278,65536,|mc/mtl_p7_zm_der_pswitch_body_brass|material|p7_zm_der_pswitch_body|xmodel|maps/zm/zm_test_map.d3dbsp|gfx_map|zone_source/zm_test_map.zone|csv
 276,image,$gray_32_one_channel,22,0,|wc/t7_zm_chalk_buy_krm|material|maps/zm/zm_test_map.d3dbsp|gfx_map|zone_source/zm_test_map.zone|csv
@@ -284,7 +284,7 @@ index,type,name,resident,streamed,parentStack
 283,image,i_t7_micro_metal_grunge_pockmarks_01_c,287,218440,|mc/mtl_p7_zm_der_pswitch_handle|material|p7_zm_der_pswitch_handle|xmodel|maps/zm/zm_test_map.d3dbsp|col_map|zone_source/zm_test_map.zone|csv
 284,image,i_t7_micro_metal_rust_01_c,283,196608,|mc/mtl_p7_zm_der_pswitch_handle_red|material|p7_zm_der_pswitch_handle|xmodel|maps/zm/zm_test_map.d3dbsp|col_map|zone_source/zm_test_map.zone|csv
 285,image,$spec_simple,14,0,|mc/mtl_p7_zm_der_magic_box_metal|material|p7_zm_der_magic_box|xmodel|zmcore_magicbox|zbarrier|maps/zm/zm_test_map.d3dbsp|col_map|zone_source/zm_test_map.zone|csv
-286,material,mc/mtl_p7_zm_der_pswitch_body,2086,0,|p7_zm_der_pswitch_body|xmodel|maps/zm/zm_test_map.d3dbsp|gfx_map|zone_source/zm_test_map.zone|csv
+286,material,mc/mtl_p7_zm_der_pswitch_body,2094,0,|p7_zm_der_pswitch_body|xmodel|maps/zm/zm_test_map.d3dbsp|gfx_map|zone_source/zm_test_map.zone|csv
 287,image,$white_specular,17,0,|mc/mtl_p7_zm_der_magic_box_fake_metal|material|p7_zm_der_magic_box_fake_trunk|xmodel|p7_zm_der_magic_box_fake|xmodel|zmcore_magicbox|zbarrier|maps/zm/zm_test_map.d3dbsp|col_map|zone_source/zm_test_map.zone|csv
 288,image,i_t7_micro_metal_grunge_scratch_fine_01_n,138,371384,|mc/mtl_p7_zm_der_pswitch_body_brass|material|p7_zm_der_pswitch_body|xmodel|maps/zm/zm_test_map.d3dbsp|gfx_map|zone_source/zm_test_map.zone|csv
 289,image,i_t7_micro_metal_grunge_scratch_fine_01_g,290,218440,|mc/mtl_p7_zm_der_pswitch_body_brass|material|p7_zm_der_pswitch_body|xmodel|maps/zm/zm_test_map.d3dbsp|gfx_map|zone_source/zm_test_map.zone|csv
@@ -1462,7 +1462,7 @@ index,type,name,resident,streamed,parentStack
 1461,sunVolumes,maps/zm/zm_test_map.d3dbsp,217806,147520,|maps/zm/zm_test_map.d3dbsp|gfx_map|zone_source/zm_test_map.zone|csv
 1462,image,*cookie_array,270,0,|maps/zm/zm_test_map.d3dbsp|cookieArray
 1463,cookieArray,maps/zm/zm_test_map.d3dbsp,14,0,|maps/zm/zm_test_map.d3dbsp|gfx_map|zone_source/zm_test_map.zone|csv
-1464,vertexData0,maps/zm/zm_test_map.d3dbsp,3914,0,|maps/zm/zm_test_map.d3dbsp|gfx_map|zone_source/zm_test_map.zone|csv
+1464,vertexData0,maps/zm/zm_test_map.d3dbsp,3866,0,|maps/zm/zm_test_map.d3dbsp|gfx_map|zone_source/zm_test_map.zone|csv
 1465,vertexData1,maps/zm/zm_test_map.d3dbsp,6400,0,|maps/zm/zm_test_map.d3dbsp|gfx_map|zone_source/zm_test_map.zone|csv
 1466,indices,maps/zm/zm_test_map.d3dbsp,1080,0,|maps/zm/zm_test_map.d3dbsp|gfx_map|zone_source/zm_test_map.zone|csv
 1467,image,vdReveal,262,0,|maps/zm/zm_test_map.d3dbsp|gfx_map|zone_source/zm_test_map.zone|csv
@@ -1474,8 +1474,8 @@ index,type,name,resident,streamed,parentStack
 1473,scriptparsetree,scripts/zm/kcnet_test/menu_functions.gsc,6754,0,|zone_source/zm_test_map.zone|csv
 1474,scriptparsetree,scripts/zm/kcnet_test/zombie_counter.gsc,4270,0,|zone_source/zm_test_map.zone|csv
 1475,sound,zm_test_map.all,875,0,||assetlist
-1476,scriptparsetree,scripts/zm/zm_test_map.gsc,3425,0,|zone_source/zm_test_map.zone|csv
-1477,scriptparsetree,scripts/zm/zm_test_map.csc,1324,0,|zone_source/zm_test_map.zone|csv
+1476,scriptparsetree,scripts/zm/zm_test_map.gsc,3441,0,|zone_source/zm_test_map.zone|csv
+1477,scriptparsetree,scripts/zm/zm_test_map.csc,1308,0,|zone_source/zm_test_map.zone|csv
 1478,scriptparsetree,scripts/zm/zm_test_map.gsh,139,0,|zone_source/zm_test_map.zone|csv
 1479,scriptparsetree,scripts/zm/zm_functions.gsc,2125,0,|zone_source/zm_test_map.zone|csv
 1480,keyvaluepairs,zm_test_map,2927,0,||assetlist
