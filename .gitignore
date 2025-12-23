@@ -6,4 +6,8 @@ zone/*.xpak
 # I will modify this later
 perks/
 
+# Cached sound files
 sound/zone/CachedBanks
+
+# Sounds, these will be added to releases
+zone/snd
