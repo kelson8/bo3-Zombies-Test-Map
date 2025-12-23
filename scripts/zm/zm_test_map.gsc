@@ -99,7 +99,10 @@ function main()
 {
 	// Dev features, these shouldn't be enabled if I publish a map.
 	// Enable high starting points (Start with a set amount of points.)
-	high_start_points = true;
+	high_start_points = false;
+
+	// Set the default starting points for the map here.
+	default_starting_points = 500;
 
 	// Max starting points for starting the map with high start points enabled.
 	max_starting_points = 30000;
@@ -107,7 +110,7 @@ function main()
 	// Zombie counter toggle
 	zombie_counter = true;
 
-	// Remove powerups toggle
+	// Remove powerups toggle, remove the nuke and carpenter.
 	remove_powerups = true;
 
 	// Higher jumping, and other features I may add, there is nothing here yet.
@@ -181,7 +184,7 @@ function main()
 	} 
 	else 
 	{
-		level.player_starting_points = 2000;
+		level.player_starting_points = default_starting_points;
 	}
 	
 
