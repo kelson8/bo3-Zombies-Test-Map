@@ -11,3 +11,6 @@ sound/zone/CachedBanks
 
 # Sounds, these will be added to releases
 zone/snd
+
+# Built files
+zone_source/all/scriptgdb/scripts/zm
