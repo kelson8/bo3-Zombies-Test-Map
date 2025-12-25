@@ -1,5 +1,18 @@
 #using scripts\codescripts\struct;
 
+// New
+#using scripts\shared\array_shared;
+#using scripts\shared\callbacks_shared;
+#using scripts\shared\clientfield_shared;
+#using scripts\shared\compass;
+#using scripts\shared\exploder_shared;
+#using scripts\shared\flag_shared;
+#using scripts\shared\laststand_shared;
+#using scripts\shared\math_shared;
+#using scripts\shared\scene_shared;
+#using scripts\shared\util_shared;
+//
+
 #using scripts\shared\callbacks_shared;
 #using scripts\shared\system_shared;
 
@@ -8,11 +21,19 @@
 #using scripts\zm\_zm_score;
 #using scripts\zm\_zm_perks;
 #using scripts\zm\_zm_weapons;
+#using scripts\zm\_zm_weapons;
 #using scripts\zm\_zm_powerups;
 
 #using scripts\zm\_zm_score;
 #using scripts\zm\_zm_audio;
 #using scripts\shared\ai\zombie_utility;
+
+// New
+#using scripts\zm\_zm_score;
+#using scripts\zm\_zm_perks;
+#using scripts\zm\_zm_audio;
+#using scripts\zm\zm_usermap;
+//
 
 // Test
 #using scripts\zm\kcnet_test\zombie_counter;
@@ -259,15 +280,13 @@ function func_getAmountOfZombies()
 // }
 
 
-
-
-
 function func_giveWeapon(weapon)
 {
 	// Possibly change to this:
 	// self GiveWeapon(weapon);
 	self zm_weapons::weapon_give(weapon);
 }
+
 
 function func_giveRayGun()
 {

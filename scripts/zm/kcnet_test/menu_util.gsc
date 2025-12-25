@@ -221,6 +221,8 @@ function initMenu()
         }
         if(isDefined(self.inMenu))
         {
+
+            // Scroll up
             if(self attackButtonPressed())
             {
                 self.menuCurs++;
@@ -230,6 +232,8 @@ function initMenu()
                 self.scrollBar.y = ((self.menuCurs*17.98)+((self.menuText.y+2.5)-(17.98/17)));
                 wait .15;
             }
+
+            // Scroll down
             if(self adsButtonPressed())
             {
                 self.menuCurs--;
@@ -239,11 +243,15 @@ function initMenu()
                 self.scrollBar.y = ((self.menuCurs*17.98)+((self.menuText.y+2.5)-(17.98/17)));
                 wait .15;
             }
+
+            // Open menu item
             if(self useButtonPressed())
             {
                 self thread [[self.menuAction[self.currentMenu].func[self.menuCurs]]](self.menuAction[self.currentMenu].inp[self.menuCurs]);
                 wait .2;
             }
+
+            // Close menu
             if(self meleeButtonPressed())
             {
                 if(!isDefined(self.menuAction[self.currentMenu].parent))
@@ -269,6 +277,7 @@ function func_menuexiut()
 	wait .4;
 	self freezecontrols(false);
 }
+
 function subMenu(menu)
 {
     self.menuCurs = 0;
@@ -288,8 +297,6 @@ function subMenu(menu)
 	wait .2;
 }
  
-
-
 function addMenu(menu, title, parent)
 {
     if(!isDefined(self.menuAction))

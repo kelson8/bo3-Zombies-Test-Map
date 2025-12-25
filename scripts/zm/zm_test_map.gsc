@@ -64,6 +64,7 @@
 // Mod menu
 // 
 #using scripts\zm\kcnet_test\menu_util;
+#using scripts\zm\zm_functions;
 #using scripts\zm\kcnet_test\zombie_counter;
 
 #insert scripts\zm\zm_test_map.gsh;
@@ -116,6 +117,14 @@ function main()
 	// Higher jumping, and other features I may add, there is nothing here yet.
 	fun_features = false;
 
+	// Misc tests for triggers
+	// Give a player a weapon if the action button is pressed on the control panel.
+	give_weapon_test = true;
+
+	// Change the zombies walking speed on all rounds.
+	// This didn't work
+	super_speed_zombies = false;
+
 	zm_usermap::main();
 
 	// TODO Fix these
@@ -160,6 +169,17 @@ function main()
 		// self SetJumpHeight(100.0);
 	}
 
+	// New for trigger testing
+
+	// Use trigger test
+	if(give_weapon_test)
+	{
+		// Give a player a weapon if the action button is pressed on the control panel.
+		// give_player_weapon
+		level thread zm_functions::giveWeaponTriggerUse("ray_gun");
+		// level thread zm_functions::triggerTest();
+	}
+
 	// Toggle dev mode features such as no target
 	if(DEVMODE == 1) 
 	{
@@ -172,6 +192,13 @@ function main()
 		// Infinite ammo
 
 		// Other items
+
+		// Make the zombies super fast
+		// Well this didn't do anything
+		if(super_speed_zombies)
+		{
+			level.zombie_move_speed = 10;
+		}
 
 	}
 
@@ -240,7 +267,7 @@ function onPlayerSpawned()
 		// self thread init_menuSystem();
 		self thread menu_util::init_menuSystem();
 		self.menu["active"] = true;
-		self iprintln("Welcome to "+self.menu["name"]+" ^7for Black Ops 3");
+		self iprintln("Welcome to " + self.menu["name"] + " ^7for Black Ops 3");
 		self iprintln("Menu created by ^2kelson8, menu base created By ^2CabCon");
 		// Menu options
 		self menu_util::initMenuOpts(); 

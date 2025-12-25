@@ -32,6 +32,7 @@
 #using scripts\zm\_zm_score;
 #using scripts\zm\_zm_perks;
 #using scripts\zm\_zm_audio;
+#using scripts\zm\_zm_weapons;
 
 // TODO Move functions into here
 
@@ -113,4 +114,47 @@ function on_player_spawned()
 function give_points(amount)
 {
 	self zm_score::add_to_player_score(amount);
+}
+
+// Trigger functions
+
+// Basic test to display some text with the trigger
+// This works, I had to change "self waittil" to "trig waittill"
+function triggerTest()
+{
+	trig = GetEnt("give_player_weapon", "targetname");
+	hintText = "Press &&1 to display some text";
+
+	trig SetHintString(hintText);
+
+	trig waittill("trigger", player);
+
+	player IPrintLn("You have pressed the trigger");
+	trig Delete();
+}
+
+// https://www.youtube.com/watch?v=midIUORXf10&list=PL1rMfOFuHfbMzBHibfla9wyCwdfMao0ou&index=2
+// Give the player a weapon from a use trigger
+// Well this shows the hint string, but doesn't give the player a weapon.
+// TODO Setup a function that gives the player a random weapon
+function giveWeaponTriggerUse(weapon)
+{
+	trig = GetEnt("give_player_weapon", "targetname");
+	trig UseTriggerRequireLookAt();
+	// &&1 Should replace the key with the action button, although I'm not sure how this works.
+	// TODO Set this hint string to get the text of the weapon name, instead of "ray_gun", display "Ray Gun"
+	hintText = "Press &&1 to take " + weapon;
+	// hintText = "Press &&1 to take weapon";
+	trig SetHintString(hintText);
+
+	trig waittill("trigger", player);
+
+	// self zm_weapons::weapon_give(weapon);
+	weapon_to_give = GetWeapon(weapon);
+	player zm_weapons::weapon_give(weapon_to_give);
+	// TODO Is this needed if I use weapon_give?
+	// player SwitchToWeapon(weapon_to_give);
+
+	// Remove the trigger so it doesn't show up anymore.
+	trig Delete();
 }
