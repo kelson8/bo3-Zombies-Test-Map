@@ -68,7 +68,6 @@
 #using scripts\zm\kcnet_test\zombie_counter;
 
 #insert scripts\zm\zm_test_map.gsh;
-// #define DEVMODE 1
 //
 
 
@@ -118,8 +117,7 @@ function main()
 	fun_features = false;
 
 	// Misc tests for triggers
-	// Give a player a weapon if the action button is pressed on the control panel.
-	give_weapon_test = true;
+	// I moved these into zm_test_map.gsh.
 
 	// Change the zombies walking speed on all rounds.
 	// This didn't work
@@ -159,7 +157,7 @@ function main()
 	// Remove specific powerups, I think this works
 	if(remove_powerups)
 	{
-		removePowerups();
+		zm_functions::removePowerups();
 	}
 
 	// Toggle higher jumping and other stuff here
@@ -172,12 +170,19 @@ function main()
 	// New for trigger testing
 
 	// Use trigger test
-	if(give_weapon_test)
+	if(GIVE_WEAPON_TRIGGER == 1)
 	{
 		// Give a player a weapon if the action button is pressed on the control panel.
 		// give_player_weapon
 		level thread zm_functions::giveWeaponTriggerUse("ray_gun");
 		// level thread zm_functions::triggerTest();
+	}
+
+	// Damage trigger test
+	// Give player a random perk when the perk bottle is shot at.	
+	if(GIVE_PERK_TRIGGER == 1)
+	{
+		level thread zm_functions::givePlayerPerkTriggerUse();
 	}
 
 	// Toggle dev mode features such as no target
@@ -202,8 +207,6 @@ function main()
 
 	}
 
-
-
 	// New
 	if(high_start_points)
 	{
@@ -225,20 +228,6 @@ function main()
 	level.perk_purchase_limit = 20;
 }
 
-// New
-
-// This should remove specific powerups from the drop list
-// https://steamcommunity.com/app/455130/discussions/0/1291817208498696239/
-function removePowerups()
-{
-	// zm_powerups::powerup_remove_from_regular_drops( "minigun" );
-	// Disable the nukes and carpenter
-	zm_powerups::powerup_remove_from_regular_drops( "nuke" );
-	zm_powerups::powerup_remove_from_regular_drops( "carpenter" );
-}
-
-//
-
 //-----------
 // Copied from zm_test map
 
@@ -259,24 +248,23 @@ function onPlayerSpawned()
 	// * Disabled for now
 	// #ifdef DEVMODE
 	// Test
-	if(DEVMODE == 1){
-
-	
-	if(!isDefined(self.menu["active"]))
-	{
-		// self thread init_menuSystem();
-		self thread menu_util::init_menuSystem();
-		self.menu["active"] = true;
-		self iprintln("Welcome to " + self.menu["name"] + " ^7for Black Ops 3");
-		self iprintln("Menu created by ^2kelson8, menu base created By ^2CabCon");
-		// Menu options
-		self menu_util::initMenuOpts(); 
+	if(DEVMODE == 1)
+	{	
+		if(!isDefined(self.menu["active"]))
+		{
+			// self thread init_menuSystem();
+			self thread menu_util::init_menuSystem();
+			self.menu["active"] = true;
+			self iprintln("Welcome to " + self.menu["name"] + " ^7for Black Ops 3");
+			self iprintln("Menu created by ^2kelson8, menu base created By ^2CabCon");
+			// Menu options
+			self menu_util::initMenuOpts(); 
 		
-		// Menu init
-		self thread menu_util::initMenu();
-		// self initMenuOpts(); 
-		// self thread initMenu();
-	}
+			// Menu init
+			self thread menu_util::initMenu();
+			// self initMenuOpts(); 
+			// self thread initMenu();
+		}
 
 	}
 	// #endif

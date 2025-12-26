@@ -118,8 +118,31 @@ function give_points(amount)
 
 // Trigger functions
 
+// https://www.youtube.com/watch?v=rhlWM0mJ5vM&list=PL1rMfOFuHfbMzBHibfla9wyCwdfMao0ou&index=3
+// Give the player a perk when the perk bottle is shot on the map.
+
+function givePlayerPerkTriggerUse()
+{
+	trig = GetEnt("give_player_perk", "targetname");
+
+	// Get the bottle entity
+	// Get the bottles target name from the trigger
+	bottle = GetEnt(trig.target, "targetname");
+
+	trig waittill("trigger", player);
+
+	// Remove the perk bottle
+	bottle Delete();
+
+	// Give the player a random perk
+	player zm_perks::give_random_perk();
+
+	// Remove the trigger
+	trig Delete();
+}
+
 // Basic test to display some text with the trigger
-// This works, I had to change "self waittil" to "trig waittill"
+// This works, I had to change "self waittill" to "trig waittill"
 function triggerTest()
 {
 	trig = GetEnt("give_player_weapon", "targetname");
@@ -157,4 +180,22 @@ function giveWeaponTriggerUse(weapon)
 
 	// Remove the trigger so it doesn't show up anymore.
 	trig Delete();
+}
+
+// Weapons
+function giveRandomWeapon(player) 
+{
+	// TODO Figure out arrays for this
+	// weapon_list = StrTok(string, delim)
+}
+
+// Powerups
+// This should remove specific powerups from the drop list
+// https://steamcommunity.com/app/455130/discussions/0/1291817208498696239/
+function removePowerups()
+{
+	// zm_powerups::powerup_remove_from_regular_drops( "minigun" );
+	// Disable the nukes and carpenter
+	zm_powerups::powerup_remove_from_regular_drops( "nuke" );
+	zm_powerups::powerup_remove_from_regular_drops( "carpenter" );
 }
