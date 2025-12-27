@@ -21,6 +21,9 @@ scriptparsetree,scripts/zm/zm_test_map.gsc
 scriptparsetree,scripts/zm/zm_test_map.csc
 scriptparsetree,scripts/zm/zm_test_map.gsh
 
+// Dev scripts
+scriptparsetree,scripts/zm/zm_dev_functions.gsc
+
 // New
 scriptparsetree,scripts/zm/zm_functions.gsc
 

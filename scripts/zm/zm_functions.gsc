@@ -182,6 +182,53 @@ function giveWeaponTriggerUse(weapon)
 	trig Delete();
 }
 
+// Door test triggers
+// Well this didn't work for moving the doors.
+// TODO Figure out how to move the X and Y position of these in the scripts, for now this will do.
+// Most of this is already set in the script, I'm just going to override part of it.
+/* 
+Door #1 position
+
+X: 968 - 997
+
+Y: 208 - 177
+*/
+function doorTriggers()
+{
+	// trig = GetEnt("test_door1", "targetname");
+	// trig = GetEnt("test_door1", "target");
+	trig = GetEnt("zombie_door", "target_name");
+
+	// TODO Use switch statements if this below works
+	/**
+	switch(trig.target)
+	{
+		case "test_door1":
+			// Door features here
+			break;
+	}
+	*/
+
+	trig waittill("trigger");
+
+	// TODO Test this
+	// test_door1 is the first door on my map.
+	// This should move the X, and Y positions of the door into the proper place
+	if(trig.target == "test_door1")
+	{
+		// door = GetEnt(trig.target, "targetname");
+		door = GetEnt("test_door1", "targetname");
+
+		// Move the X position of the door
+		door moveX(-29, 1);
+
+		// Move the Y position of the door when opened
+		door MoveY(-31, 1);
+	}
+}
+
+//
+
 // Weapons
 function giveRandomWeapon(player) 
 {

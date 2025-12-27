@@ -57,6 +57,9 @@ I added the BO2 perk jingles from here:
 The sound fixes from MikeyRay on the modme forums, this fixes the perk jingles, PPSH weapon firing sounds and other sounds
 * https://forum.modme.co/wiki/threads/3283.html
 
+The developer textures from here (I will possibly use this for blocking out textures and temporary stuff on my map.)
+* https://www.devraw.net/approved-assets/verk0/developer-textures
+
 # Credits
 I did not create a lot of assets that are in use for this map, if you like what I am creating with these check out the below for credits to the users that created these maps/perks/assets.
 
@@ -68,3 +71,6 @@ Kino Der Toten vox pack (This isn't in use just yet, I cannot figure it out):
 
 The sound fixes from MikeyRay on the modme forums
 * https://forum.modme.co/wiki/threads/3283.html
+
+The developer textures from here
+* https://www.devraw.net/approved-assets/verk0/developer-textures

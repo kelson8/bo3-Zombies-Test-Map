@@ -60,6 +60,7 @@
 // From my other zm_test map
 // My code
 #using scripts\zm\zm_functions;
+#using scripts\zm\zm_dev_functions;
 
 // Mod menu
 // 
@@ -169,7 +170,22 @@ function main()
 
 	// New for trigger testing
 
+	// TODO Set this up
+	// Move the opened doors Y position or whatever to make it look like it opens properly.
+	if(DOOR_TRIGGER_TEST == 1)
+	{
+		// Well this didn't work or do anything, maybe I can use 'script_vector' on the door object in Radiant.
+		// level thread zm_functions::door1Trigger();
+		level thread zm_functions::doorTriggers();
+	}
+
 	// Use trigger test
+	// TODO Try to make one of these play a sound
+	if(DEV_TELEPORT_TRIGGERS == 1)
+	{
+		level thread zm_dev_functions::devTriggersUse();
+	}
+	
 	if(GIVE_WEAPON_TRIGGER == 1)
 	{
 		// Give a player a weapon if the action button is pressed on the control panel.

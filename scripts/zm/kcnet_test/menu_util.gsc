@@ -181,6 +181,7 @@ function initMenuOpts()
 	self addOpt("main_mods", "God Mode", &menu_functions::func_godmode);
 	self addOpt("main_mods", "Unlimited Ammo", &menu_functions::func_unlimitedAmmo);
 	self addOpt("main_mods", "Ufo Mode", &menu_functions::func_ufomode);
+	self addOpt("main_mods", "Display Position", &menu_functions::func_displayPosition);
 	self addOpt("main_mods", "Field of View", &menu_functions::test);
 	self addOpt("main_mods", "Print something!", &menu_functions::test);
 }

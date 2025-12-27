@@ -62,6 +62,12 @@
 // Functions
 //----------------------//
 
+// TODO Make a toggle for this, like the zombie counter and display on screen.
+function func_displayPosition()
+{
+	self iPrintln("Your current position is: " + self.origin);
+}
+
 function test()
 {
     self iPrintln("^9Does nothing.");
