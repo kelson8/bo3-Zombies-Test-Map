@@ -47,7 +47,7 @@ aitype,96,2
 character,150,5
 xmodelalias,48,1
 rawfile,5000,0
-stringtable,200,0
+stringtable,200,1
 structuredtable,96,0
 leaderboarddef,256,0
 ddl,64,0

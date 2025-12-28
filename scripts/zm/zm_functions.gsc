@@ -164,10 +164,43 @@ function giveWeaponTriggerUse(weapon)
 {
 	trig = GetEnt("give_player_weapon", "targetname");
 	trig UseTriggerRequireLookAt();
+
+	// This seems to get a list of weapons the player has
+	// GetWeaponsList();
+
 	// &&1 Should replace the key with the action button, although I'm not sure how this works.
 	// TODO Set this hint string to get the text of the weapon name, instead of "ray_gun", display "Ray Gun"
-	hintText = "Press &&1 to take " + weapon;
-	// hintText = "Press &&1 to take weapon";
+
+	// Setup the weapon_name variable.
+	weapon_name = undefined;
+
+	// This is a terrible way to do this, but for now I'll hard-code a few weapons for the display.
+	// I'm sure there is an in game way to display the english weapon strings, it's on the HUD anyways.
+	switch(weapon)
+	{
+		case "ray_gun":
+			weapon_name = "Ray Gun";
+			break;
+		// I may add this to the map later.
+		// case "thunder_gun":
+			// weapon_name = "Thunder Gun";
+			// break;
+		// default:
+			// Just set the weapon_name to the weapon that is specified by default.
+			// weapon_name = weapon;
+			// break;
+	}
+	
+	if(isdefined(weapon_name) && weapon_name)
+	{
+		hintText = "Press &&1 to take " + weapon_name;
+	} 
+	else 
+	{
+		hintText = "Press &&1 to take " + weapon;
+	}
+	//
+	
 	trig SetHintString(hintText);
 
 	trig waittill("trigger", player);
@@ -181,6 +214,29 @@ function giveWeaponTriggerUse(weapon)
 	// Remove the trigger so it doesn't show up anymore.
 	trig Delete();
 }
+
+
+// Modified from above trigger, this one gives the player a random weapon.
+// So far, its just SMGs.
+function giveRandomWeaponTriggerUse()
+{
+	trig = GetEnt("give_player_weapon", "targetname");
+	trig UseTriggerRequireLookAt();
+
+	// &&1 Should replace the key with the action button, although I'm not sure how this works.
+	
+	hintText = "Press &&1 to take a random weapon";
+	
+	trig SetHintString(hintText);
+
+	trig waittill("trigger", player);
+
+	player giveRandomWeapon();
+
+	// Remove the trigger so it doesn't show up anymore.
+	trig Delete();
+}
+
 
 // Door test triggers
 // Well this didn't work for moving the doors.
@@ -229,11 +285,21 @@ function doorTriggers()
 
 //
 
-// Weapons
-function giveRandomWeapon(player) 
+// Give random weapon, this seems to work fine now but I only have it setup for SMGs.
+// Weapon list here:
+// https://cabconmodding.com/threads/black-ops-3-gsc-weapon-names-with-game-name-list.1595/
+function giveRandomWeapon()
 {
-	// TODO Figure out arrays for this
-	// weapon_list = StrTok(string, delim)
+	smg_weapon_list = array("smg_standard", "smg_versatile", "smg_capacity", "smg_fastfire", "smg_burst", "smg_longrange");
+
+	// Randomizer
+	random_smg = RandomIntRange(0, 5);
+	// TODO Possibly switch this to array::random like in the powerupSpawn function.
+	random_smg_weapon = smg_weapon_list[random_smg];
+
+	// 
+	weapon_to_give = GetWeapon(random_smg_weapon);
+	self zm_weapons::weapon_give(weapon_to_give);
 }
 
 // Powerups

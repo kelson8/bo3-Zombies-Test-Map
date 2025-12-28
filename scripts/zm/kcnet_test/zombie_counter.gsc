@@ -1,6 +1,3 @@
-// Not sure how to do this yet
-// TODO Setup to where it draws a zombie counter somewhere on the screen
-
 #using scripts\codescripts\struct;
 
 #using scripts\shared\callbacks_shared;
@@ -127,7 +124,8 @@ function createNewHudElement(xAlign, yAlign, posX, posY, foreground, fontScale)
 {
     hud = newHudElem();
     hud.horzAlign = xAlign; hud.alignX = xAlign;
-    hud.vertAlign = yAlign; hug.alignY = yAlign;
+    // hud.vertAlign = yAlign; hug.alignY = yAlign;
+    hud.vertAlign = yAlign; hud.alignY = yAlign;
     hud.x = posX; hud.y = posY;
     hud.foreground = foreground;
     hud.fontscale = fontScale;

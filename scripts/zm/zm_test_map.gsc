@@ -126,11 +126,12 @@ function main()
 
 	zm_usermap::main();
 
-	// TODO Fix these
 	// Setup the voice lines
+	// Not in use
 	// level thread zm_castle_vox();
 
-	// level thread zm_theater_vox();
+	// Well I got the Kino voice lines working
+	level thread zm_theater_vox();
 
 	// From my zm_test, setup max ammo watcher and player spawn watcher
 	// https://t7wiki.com/guides/black-ops-4-max-ammo
@@ -190,7 +191,11 @@ function main()
 	{
 		// Give a player a weapon if the action button is pressed on the control panel.
 		// give_player_weapon
-		level thread zm_functions::giveWeaponTriggerUse("ray_gun");
+		// level thread zm_functions::giveWeaponTriggerUse("ray_gun");
+
+		// Give the player a random weapon.
+		level thread zm_functions::giveRandomWeaponTriggerUse();
+
 		// level thread zm_functions::triggerTest();
 	}
 
@@ -341,10 +346,9 @@ function add_zm_vox()
 	// zm_audio::loadPlayerVoiceCategories("gamedata/audio/zm/zm_castle_vox.csv");
 }
 
-// Kino Der Toten vox
-// Well this didn't work
+// Kino Der Toten voice lines
 // https://www.devraw.net/approved-assets/zecstasy/kino-der-toten-character-vox
 function zm_theater_vox()
 {
-	// zm_audio::loadPlayerVoiceCategories("gamedata/audio/zm/zm_theater_vox.csv");
+	zm_audio::loadPlayerVoiceCategories("gamedata/audio/zm/zm_theater_vox.csv");
 }

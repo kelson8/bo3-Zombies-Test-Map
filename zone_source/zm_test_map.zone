@@ -28,4 +28,4 @@ scriptparsetree,scripts/zm/zm_dev_functions.gsc
 scriptparsetree,scripts/zm/zm_functions.gsc
 
 // Voice lines
-//stringtable,gamedata/audio/zm/zm_vox.csv
+stringtable,gamedata/audio/zm/zm_theater_vox.csv

@@ -1486,6 +1486,7 @@ fx,blood/fx_blood_sword_trail_emitter_zod_zmb
 fx,blood/fx_blood_trail_zmb
 fx,zombie/fx_barrier_window_build_zmb
 fx,zombie/fx_packapunch_zmb
+stringtable,gamedata/audio/zm/zm_theater_vox.csv
 scriptparsetree,scripts/zm/kcnet_test/menu_functions.gsc
 scriptparsetree,scripts/zm/kcnet_test/menu_util.gsc
 scriptparsetree,scripts/zm/kcnet_test/zombie_counter.gsc

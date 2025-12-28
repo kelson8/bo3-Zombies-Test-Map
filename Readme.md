@@ -48,7 +48,7 @@ My additions and code files in the `scripts/zm` folder are licensed under the GP
 ## Requirements
 This map now requires the 90GB extra assets in the Black Ops 3 mod tools.
 
-Also, you now need this Kino Der Toten vox pack installed (This isn't in use just yet, I cannot figure it out):
+Also, you now need this Kino Der Toten vox pack installed:
 * https://www.devraw.net/approved-assets/zecstasy/kino-der-toten-character-vox
 
 I added the BO2 perk jingles from here:
@@ -66,7 +66,7 @@ I did not create a lot of assets that are in use for this map, if you like what 
 BO2 Perk Jingles:
 * https://drive.google.com/file/d/18QvCrsv7Bpnm-kum9Y7tHCChsBFdH53t/view
 
-Kino Der Toten vox pack (This isn't in use just yet, I cannot figure it out):
+Kino Der Toten vox pack:
 * https://www.devraw.net/approved-assets/zecstasy/kino-der-toten-character-vox
 
 The sound fixes from MikeyRay on the modme forums
