@@ -1,9 +1,17 @@
+// For the toggle options below:
+// 0 is disabled, 1 is enabled.
+
 //---------
 // Misc Options
 //---------
 
 // Set the perk limit for the map here
 #define PERK_LIMIT 10
+
+// Toggle the dogs here
+// For now due to glitches with the dogs on my map I have turned them off
+// TODO Fix dogs on the map.
+#define DOGS_ENABLED 0
 
 //---------
 // Zombie Counter
@@ -18,7 +26,6 @@
 
 // Enable/disable the mod menu for my map.
 // I may add more to this later.
-// 0 is disabled, 1 is enabled.
 #define DEVMODE 1
 
 // #if DEVMODE

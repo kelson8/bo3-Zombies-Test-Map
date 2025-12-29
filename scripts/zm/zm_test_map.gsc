@@ -137,7 +137,7 @@ function main()
 
 	// From my zm_test, setup max ammo watcher and player spawn watcher
 	// https://t7wiki.com/guides/black-ops-4-max-ammo
-	// Well possibly adding this is what crashed this map...
+	// TODO Move watchMaxAmmo into onPlayerSpawned, possibly run as a thread.
 	callback::on_spawned(&watchMaxAmmo);
 	callback::on_spawned(&onPlayerSpawned);
 	//
@@ -145,7 +145,6 @@ function main()
 	level._zombie_custom_add_weapons =&custom_add_weapons;
 	
 	//Setup the levels Zombie Zone Volumes
-	// TODO Look into these zones later
 	level.zones = [];
 	level.zone_manager_init_func =&usermap_test_zone_init;
 	init_zones[0] = "start_zone";
@@ -169,6 +168,12 @@ function main()
 	{
 		// Well I'm not sure which gsc file this is in.
 		// self SetJumpHeight(100.0);
+	}
+
+	// Disable dog rounds if flag is set to 0 in zm_test_map.gsh.
+	if(DOGS_ENABLED == 0)
+	{
+		level.dog_rounds_allowed = false;
 	}
 
 	// New for trigger testing
@@ -323,6 +328,41 @@ function usermap_test_zone_init()
 {
 	level flag::init( "always_on" );
 	level flag::set( "always_on" );
+
+	// New for zones
+	// Add more of these when adding zones.
+	// Make sure to link zones together if there are multiple that go to one spot.
+	// Such as outside_zone1 to start_zone if I set that up.
+	
+	//-----
+	// Start zone
+	//-----
+
+	// Start zone to room1 zone
+	zm_zonemgr::add_adjacent_zone( "start_zone", "room1_zone", "activate_room1_zone" );
+	
+	// Start zone to room2 zone, probably not needed
+	// zm_zonemgr::add_adjacent_zone( "start_zone", "room2_zone", "activate_room2_zone" );
+
+	// Start zone to pack a punch room zone, probably not needed
+	// zm_zonemgr::add_adjacent_zone( "start_zone", "pack_a_punch_room_zone", "activate_pack_a_punch_room_zone" );
+
+	//-----
+	// Room 1 zone
+	
+	//-----
+	// Room 1 zone to pack a punch room
+	zm_zonemgr::add_adjacent_zone( "room1_zone", "pack_a_punch_room_zone", "activate_pack_a_punch_room_zone" );
+	
+	// Room 1 zone to room 2 zone
+	zm_zonemgr::add_adjacent_zone( "room1_zone", "room2_zone", "activate_room2_zone" );
+
+	//-----
+	// Room 2 zone
+	//-----
+
+	// Room 2 zone to outside zone1
+	zm_zonemgr::add_adjacent_zone( "room2_zone", "outside_zone1", "activate_zone1_outside" );
 }	
 
 function custom_add_weapons()

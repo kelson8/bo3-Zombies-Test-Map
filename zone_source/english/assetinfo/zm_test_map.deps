@@ -309,10 +309,10 @@ xmodel,p7_gib_chunk_meat_01
 	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\model_export\t7_props\p7_gib_chunk_set\p7_gib_chunk_meat_01_lod0.XMODEL_BIN,1766516577,
 	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\share\assetconvert\xmesh\v6\p7_gib_chunk_meat_01_lod0_f0_s1.000000_geo_rigid_DBYTQAMCAXP2GHUS42EXRUQO4R,1766431419,
 	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\share\assetconvert\xmesh\v6\p7_gib_chunk_meat_01_lod0_f16_s1.000000_geo_rigid_FFA2JGHIDD3GSZTQ225J2ITA36,1766431419,
-	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\share\assetconvert\xmesh\v6\p7_gib_chunk_meat_01_lod0_f75_s1.000000_geo_rigid_ANHFP3XYBD5VLX2YYGNNPVMK4R,1766431419,
 	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\share\assetconvert\xmesh\v6\p7_gib_chunk_meat_01_lod0_f45_s1.000000_geo_rigid_PZAPOB6WCCDO2ZHCALCFONXMXP,1766431419,
-	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\share\assetconvert\xmesh\v6\p7_gib_chunk_meat_01_lod0_f22_s1.000000_geo_rigid_O66QMQK4SSJ5OV7M3KTCJH6O6A,1766431419,
 	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\share\assetconvert\xmesh\v6\p7_gib_chunk_meat_01_lod0_f16_s1.000000_collision_rigid_TV7P3DPASXPAHOQNAJOTXEF7V7,1766431419,
+	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\share\assetconvert\xmesh\v6\p7_gib_chunk_meat_01_lod0_f22_s1.000000_geo_rigid_O66QMQK4SSJ5OV7M3KTCJH6O6A,1766431419,
+	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\share\assetconvert\xmesh\v6\p7_gib_chunk_meat_01_lod0_f75_s1.000000_geo_rigid_ANHFP3XYBD5VLX2YYGNNPVMK4R,1766431419,
 	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\share\assetconvert\xmodelmipvol\v1\p7_gib_chunk_meat_01_9d1d9a281e33bb5f,1766431421,
 xmodelmesh,p7_gib_chunk_meat_02_lod059149772
 xmodelmesh,p7_gib_chunk_meat_02_lod0f796fdbb
@@ -328,9 +328,9 @@ xmodel,p7_gib_chunk_meat_02
 	gdt,xmodel,p7_gib_chunk_meat_02,ED-07-8D-E1-74-E2-D9-7F-AF-81-BA-FF-40-22-91-51
 	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\model_export\t7_props\p7_gib_chunk_set\p7_gib_chunk_meat_02_lod0.XMODEL_BIN,1766516538,
 	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\share\assetconvert\xmesh\v6\p7_gib_chunk_meat_02_lod0_f0_s1.000000_geo_rigid_DLX4GZ6UOPCSG665MVOSZNWZ6A,1766431421,
-	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\share\assetconvert\xmesh\v6\p7_gib_chunk_meat_02_lod0_f16_s1.000000_geo_rigid_FPPV77V6N3WOSAZ7KVXMSRVX5P,1766431421,
-	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\share\assetconvert\xmesh\v6\p7_gib_chunk_meat_02_lod0_f52_s1.000000_geo_rigid_AEDHHVAHTDO3UQHRC25IG7BF5N,1766431421,
 	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\share\assetconvert\xmesh\v6\p7_gib_chunk_meat_02_lod0_f31_s1.000000_geo_rigid_PKZ7V6CWOE7SKQNKOJ5S362B2R,1766431421,
+	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\share\assetconvert\xmesh\v6\p7_gib_chunk_meat_02_lod0_f52_s1.000000_geo_rigid_AEDHHVAHTDO3UQHRC25IG7BF5N,1766431421,
+	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\share\assetconvert\xmesh\v6\p7_gib_chunk_meat_02_lod0_f16_s1.000000_geo_rigid_FPPV77V6N3WOSAZ7KVXMSRVX5P,1766431421,
 	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\share\assetconvert\xmesh\v6\p7_gib_chunk_meat_02_lod0_f16_s1.000000_collision_rigid_T7QAN25W4PCIHX2CQGEW75DIHO,1766431421,
 	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\share\assetconvert\xmodelmipvol\v1\p7_gib_chunk_meat_02_23f6ffc5102e464d,1766431421,
 xmodelmesh,p7_gib_chunk_meat_03_lod0bd6c549b
@@ -349,11 +349,11 @@ xmodel,p7_gib_chunk_meat_03
 	gdt,xmodel,p7_gib_chunk_meat_03,A8-FA-E8-E7-7E-AB-30-C7-75-E5-9B-2F-3E-E3-41-59
 	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\model_export\t7_props\p7_gib_chunk_set\p7_gib_chunk_meat_03_lod0.XMODEL_BIN,1766516434,
 	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\share\assetconvert\xmesh\v6\p7_gib_chunk_meat_03_lod0_f0_s1.000000_geo_rigid_USUI7VH6NISCNV4VSOH525EXMJ,1766431421,
-	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\share\assetconvert\xmesh\v6\p7_gib_chunk_meat_03_lod0_f22_s1.000000_geo_rigid_ZNSLDFBA7NUFFHXLV6QICOKXKY,1766431421,
-	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\share\assetconvert\xmesh\v6\p7_gib_chunk_meat_03_lod0_f16_s1.000000_collision_rigid_EGTUUWE47ISYM4YKO5NZ4NRGRH,1766431421,
-	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\share\assetconvert\xmesh\v6\p7_gib_chunk_meat_03_lod0_f45_s1.000000_geo_rigid_YKMUBUVKP56WRLPFO7BPFEDVDX,1766431421,
-	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\share\assetconvert\xmesh\v6\p7_gib_chunk_meat_03_lod0_f16_s1.000000_geo_rigid_SWMBGTMUO4G6ZL3XUO6DRBHZPG,1766431421,
 	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\share\assetconvert\xmesh\v6\p7_gib_chunk_meat_03_lod0_f75_s1.000000_geo_rigid_X6L6AO4EM4ANAFS7WSOHE4YT4J,1766431421,
+	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\share\assetconvert\xmesh\v6\p7_gib_chunk_meat_03_lod0_f16_s1.000000_collision_rigid_EGTUUWE47ISYM4YKO5NZ4NRGRH,1766431421,
+	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\share\assetconvert\xmesh\v6\p7_gib_chunk_meat_03_lod0_f16_s1.000000_geo_rigid_SWMBGTMUO4G6ZL3XUO6DRBHZPG,1766431421,
+	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\share\assetconvert\xmesh\v6\p7_gib_chunk_meat_03_lod0_f45_s1.000000_geo_rigid_YKMUBUVKP56WRLPFO7BPFEDVDX,1766431421,
+	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\share\assetconvert\xmesh\v6\p7_gib_chunk_meat_03_lod0_f22_s1.000000_geo_rigid_ZNSLDFBA7NUFFHXLV6QICOKXKY,1766431421,
 	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\share\assetconvert\xmodelmipvol\v1\p7_gib_chunk_meat_03_dc149761a7808fd9,1766431421,
 xmodelmesh,p7_gib_chunk_flesh_01_lod06c0c53de
 xmodelmesh,p7_gib_chunk_flesh_01_lod0403200c6
@@ -372,10 +372,10 @@ xmodel,p7_gib_chunk_flesh_01
 	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\model_export\t7_props\p7_gib_chunk_set\p7_gib_chunk_flesh_01_lod0.XMODEL_BIN,1766516543,
 	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\share\assetconvert\xmesh\v6\p7_gib_chunk_flesh_01_lod0_f0_s1.000000_geo_rigid_DFPGOMLUW366FM26GKRUBEAS4A,1766431421,
 	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\share\assetconvert\xmesh\v6\p7_gib_chunk_flesh_01_lod0_f16_s1.000000_geo_rigid_FBXPXKA6VPKCRS54AKIKKYD43P,1766431421,
-	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\share\assetconvert\xmesh\v6\p7_gib_chunk_flesh_01_lod0_f75_s1.000000_geo_rigid_AJQQRXQOXPMRI4UUCWYO7F4W4A,1766431421,
 	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\share\assetconvert\xmesh\v6\p7_gib_chunk_flesh_01_lod0_f16_s1.000000_collision_rigid_TRI2FPIWE36EEF6B2Z3QHUVDVO,1766431421,
-	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\share\assetconvert\xmesh\v6\p7_gib_chunk_flesh_01_lod0_f45_s1.000000_geo_rigid_P5X2QNZAUOSKZSJO23XG65HQX6,1766431421,
+	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\share\assetconvert\xmesh\v6\p7_gib_chunk_flesh_01_lod0_f75_s1.000000_geo_rigid_AJQQRXQOXPMRI4UUCWYO7F4W4A,1766431421,
 	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\share\assetconvert\xmesh\v6\p7_gib_chunk_flesh_01_lod0_f22_s1.000000_geo_rigid_O2JFS4NKE6YZN6RAB2GBZXOS6R,1766431421,
+	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\share\assetconvert\xmesh\v6\p7_gib_chunk_flesh_01_lod0_f45_s1.000000_geo_rigid_P5X2QNZAUOSKZSJO23XG65HQX6,1766431421,
 	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\share\assetconvert\xmodelmipvol\v1\p7_gib_chunk_flesh_01_247b101febd1849d,1766431421,
 xmodelmesh,p7_gib_chunk_flesh_03_lod0a3103fb
 xmodelmesh,p7_gib_chunk_flesh_03_lod0bb76abee
@@ -393,11 +393,11 @@ xmodel,p7_gib_chunk_flesh_03
 	gdt,xmodel,p7_gib_chunk_flesh_03,C3-86-84-3D-AD-1C-8D-9E-DC-A6-47-B0-31-5D-48-A5
 	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\model_export\t7_props\p7_gib_chunk_set\p7_gib_chunk_flesh_03_lod0.XMODEL_BIN,1766516489,
 	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\share\assetconvert\xmesh\v6\p7_gib_chunk_flesh_03_lod0_f0_s1.000000_geo_rigid_LQ2V3AEA7MNXVDAGYUGJT6OKOI,1766431421,
-	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\share\assetconvert\xmesh\v6\p7_gib_chunk_flesh_03_lod0_f73_s1.000000_geo_rigid_EIVG25TTFGXPEHWVT737STQHUO,1766431421,
 	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\share\assetconvert\xmesh\v6\p7_gib_chunk_flesh_03_lod0_f16_s1.000000_geo_rigid_NUC4CGPK4YZLB5HE6U7XYCNENH,1766431421,
 	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\share\assetconvert\xmesh\v6\p7_gib_chunk_flesh_03_lod0_f43_s1.000000_geo_rigid_CQ6NPGAF32LOQPDNY36A5TJTZL,1766431421,
 	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\share\assetconvert\xmesh\v6\p7_gib_chunk_flesh_03_lod0_f21_s1.000000_geo_rigid_WR7MNZ2HT4PQ7DKJ3EPIRMW36D,1766431421,
 	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\share\assetconvert\xmesh\v6\p7_gib_chunk_flesh_03_lod0_f16_s1.000000_collision_rigid_3E5JQDHCNMNNUKEZEHMNVO337G,1766431421,
+	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\share\assetconvert\xmesh\v6\p7_gib_chunk_flesh_03_lod0_f73_s1.000000_geo_rigid_EIVG25TTFGXPEHWVT737STQHUO,1766431421,
 	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\share\assetconvert\xmodelmipvol\v1\p7_gib_chunk_flesh_03_9cafe7f87e314d5,1766431421,
 xmodelmesh,p7_gib_chunk_bone_03_lod0d74e0be3
 xmodelmesh,p7_gib_chunk_bone_03_lod0e628576e
@@ -413,8 +413,8 @@ xmodel,p7_gib_chunk_bone_03
 	gdt,xmodel,p7_gib_chunk_bone_03,58-9B-92-62-0D-2C-E3-7C-89-3E-9F-EA-BA-EB-E1-B9
 	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\model_export\t7_props\p7_gib_chunk_set\p7_gib_chunk_bone_03_lod0.XMODEL_BIN,1766516377,
 	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\share\assetconvert\xmesh\v6\p7_gib_chunk_bone_03_lod0_f0_s1.000000_geo_rigid_BICKLS56HAENBDHF2HQY6Y6C6V,1766431421,
-	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\share\assetconvert\xmesh\v6\p7_gib_chunk_bone_03_lod0_f28_s1.000000_geo_rigid_7M2HC7ETAGZQBTRTNHLR75636K,1766431421,
 	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\share\assetconvert\xmesh\v6\p7_gib_chunk_bone_03_lod0_f16_s1.000000_geo_rigid_HM2DSUWUEUQRV5AH4HJGVE5M52,1766431421,
+	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\share\assetconvert\xmesh\v6\p7_gib_chunk_bone_03_lod0_f28_s1.000000_geo_rigid_7M2HC7ETAGZQBTRTNHLR75636K,1766431421,
 	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\share\assetconvert\xmesh\v6\p7_gib_chunk_bone_03_lod0_f16_s1.000000_collision_rigid_R4FWAR64VAEXAKD2GU24YILTL3,1766431421,
 	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\share\assetconvert\xmesh\v6\p7_gib_chunk_bone_03_lod0_f48_s1.000000_geo_rigid_54DFNXQK7PUV6VC6AS3VDZJQNI,1766431421,
 	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\share\assetconvert\xmodelmipvol\v1\p7_gib_chunk_bone_03_417c66e261d8b108,1766431421,
@@ -750,20 +750,20 @@ xmodel,c_zom_der_zombie_body1
 	gdt,xmodel,c_zom_der_zombie_body1,DC-C7-B0-7F-19-5D-95-B2-92-BE-F9-F5-C4-F3-68-24
 	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\model_export\t7_characters\zombies\zombies\c_zom_der_zombie_body1_LOD0.XMODEL_BIN,1766516329,
 	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\share\assetconvert\xmesh\v6\c_zom_der_zombie_body1_lod0_f0_s1.000000_geo_MCMSFF5KBZDSKOSDFZQYYWNW5K,1766431438,
+	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\model_export\t7_characters\zombies\zombies\c_zom_der_zombie_body1_LOD1.XMODEL_BIN,1766516329,
 	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\model_export\t7_characters\zombies\zombies\c_zom_der_zombie_body1_LOD2.XMODEL_BIN,1766516377,
 	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\model_export\xmodel_multiplayer\multiPlayer_HitBoxModelChar.xmodel_bin,1766516550,
-	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\model_export\t7_characters\zombies\zombies\c_zom_der_zombie_body1_LOD1.XMODEL_BIN,1766516329,
+	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\model_export\t7_characters\zombies\zombies\c_zom_der_zombie_body1_LOD5.XMODEL_BIN,1766516480,
 	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\model_export\t7_characters\zombies\zombies\c_zom_der_zombie_body1_LOD4.XMODEL_BIN,1766516485,
 	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\model_export\t7_characters\zombies\zombies\c_zom_der_zombie_body1_LOD3.XMODEL_BIN,1766516352,
 	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\share\assetconvert\xmesh\v6\c_zom_der_zombie_body1_lod2_f0_s1.000000_geo_5DW26SNY57AZFAC67TH4XVUSU4,1766431438,
-	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\model_export\t7_characters\zombies\zombies\c_zom_der_zombie_body1_LOD6.XMODEL_BIN,1766516357,
-	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\model_export\t7_characters\zombies\zombies\c_zom_der_zombie_body1_LOD5.XMODEL_BIN,1766516480,
-	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\share\assetconvert\xmesh\v6\multiplayer_hitboxmodelchar_f0_s1.000000_geo_7N34ISJXWT7R4ABBH2HBCKZKZ7,1766431436,
+	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\share\assetconvert\xmesh\v6\c_zom_der_zombie_body1_lod5_f0_s1.000000_geo_3ZIORL5KLIYTW6PBKVY7QEYIY3,1766431438,
 	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\share\assetconvert\xmesh\v6\c_zom_der_zombie_body1_lod4_f0_s1.000000_geo_IP22E7QOOG7DYBFI4QOAVUVW57,1766431438,
+	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\model_export\t7_characters\zombies\zombies\c_zom_der_zombie_body1_LOD6.XMODEL_BIN,1766516357,
 	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\share\assetconvert\xmesh\v6\c_zom_der_zombie_body1_lod1_f0_s1.000000_geo_MLDC33EGVN7EQ4PYUHD57TC26U,1766431438,
+	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\share\assetconvert\xmesh\v6\multiplayer_hitboxmodelchar_f0_s1.000000_geo_7N34ISJXWT7R4ABBH2HBCKZKZ7,1766431436,
 	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\share\assetconvert\xmesh\v6\c_zom_der_zombie_body1_lod3_f0_s1.000000_geo_4XHMWMI4LCSVXZG2EIM4FKCJO7,1766431438,
 	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\share\assetconvert\xmesh\v6\c_zom_der_zombie_body1_lod6_f0_s1.000000_geo_B3W3JE7B3RCT2SO26ZJ3UQXB77,1766431438,
-	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\share\assetconvert\xmesh\v6\c_zom_der_zombie_body1_lod5_f0_s1.000000_geo_3ZIORL5KLIYTW6PBKVY7QEYIY3,1766431438,
 	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\share\assetconvert\xmodelmipvol\v1\c_zom_der_zombie_body1_60b4bf3282cf1999,1766431443,
 xmodelmesh,c_zom_der_zombie_body1_g_upclean_LOD02d5c533a
 xmodelmesh,c_zom_der_zombie_body1_g_upclean_LOD1eab89a23
@@ -788,18 +788,18 @@ xmodel,c_zom_der_zombie_body1_g_upclean
 	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\share\assetconvert\xmesh\v6\c_zom_der_zombie_body1_g_upclean_lod0_f0_s1.000000_geo_EURZYKIOHAS66RQACC27I3FWNU,1766431450,
 	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\model_export\xmodel_multiplayer\multiPlayer_HitBoxModelChar.xmodel_bin,1766516550,
 	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\model_export\t7_characters\zombies\zombies\c_zom_der_zombie_body1_g_upclean_LOD5.XMODEL_BIN,1766516357,
-	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\model_export\t7_characters\zombies\zombies\c_zom_der_zombie_body1_g_upclean_LOD6.XMODEL_BIN,1766516374,
-	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\model_export\t7_characters\zombies\zombies\c_zom_der_zombie_body1_g_upclean_LOD1.XMODEL_BIN,1766516329,
-	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\model_export\t7_characters\zombies\zombies\c_zom_der_zombie_body1_g_upclean_LOD2.XMODEL_BIN,1766516377,
-	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\model_export\t7_characters\zombies\zombies\c_zom_der_zombie_body1_g_upclean_LOD4.XMODEL_BIN,1766516531,
 	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\model_export\t7_characters\zombies\zombies\c_zom_der_zombie_body1_g_upclean_LOD3.XMODEL_BIN,1766516533,
+	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\model_export\t7_characters\zombies\zombies\c_zom_der_zombie_body1_g_upclean_LOD2.XMODEL_BIN,1766516377,
+	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\model_export\t7_characters\zombies\zombies\c_zom_der_zombie_body1_g_upclean_LOD6.XMODEL_BIN,1766516374,
+	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\model_export\t7_characters\zombies\zombies\c_zom_der_zombie_body1_g_upclean_LOD4.XMODEL_BIN,1766516531,
+	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\model_export\t7_characters\zombies\zombies\c_zom_der_zombie_body1_g_upclean_LOD1.XMODEL_BIN,1766516329,
 	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\share\assetconvert\xmesh\v6\multiplayer_hitboxmodelchar_f0_s1.000000_geo_7N34ISJXWT7R4ABBH2HBCKZKZ7,1766431436,
 	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\share\assetconvert\xmesh\v6\c_zom_der_zombie_body1_g_upclean_lod5_f0_s1.000000_geo_JXFAUUQRZUPQHEYKNQ3ZWI2P25,1766431450,
-	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\share\assetconvert\xmesh\v6\c_zom_der_zombie_body1_g_upclean_lod6_f0_s1.000000_geo_KPNLBMTFQ3K4WIBMMZ2XBNKSOF,1766431450,
-	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\share\assetconvert\xmesh\v6\c_zom_der_zombie_body1_g_upclean_lod1_f0_s1.000000_geo_RYM5RIQ3HVKQXXR4U54D2STITC,1766431450,
-	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\share\assetconvert\xmesh\v6\c_zom_der_zombie_body1_g_upclean_lod2_f0_s1.000000_geo_GNKI3MJ63OJX465GDM5GKLB7JO,1766431450,
-	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\share\assetconvert\xmesh\v6\c_zom_der_zombie_body1_g_upclean_lod4_f0_s1.000000_geo_QP3PL5NRQK2VWP5B4TADSXSPWL,1766431450,
 	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\share\assetconvert\xmesh\v6\c_zom_der_zombie_body1_g_upclean_lod3_f0_s1.000000_geo_UCXHFSDXPXORKNE3IXKPMMBVN2,1766431450,
+	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\share\assetconvert\xmesh\v6\c_zom_der_zombie_body1_g_upclean_lod2_f0_s1.000000_geo_GNKI3MJ63OJX465GDM5GKLB7JO,1766431450,
+	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\share\assetconvert\xmesh\v6\c_zom_der_zombie_body1_g_upclean_lod6_f0_s1.000000_geo_KPNLBMTFQ3K4WIBMMZ2XBNKSOF,1766431450,
+	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\share\assetconvert\xmesh\v6\c_zom_der_zombie_body1_g_upclean_lod4_f0_s1.000000_geo_QP3PL5NRQK2VWP5B4TADSXSPWL,1766431450,
+	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\share\assetconvert\xmesh\v6\c_zom_der_zombie_body1_g_upclean_lod1_f0_s1.000000_geo_RYM5RIQ3HVKQXXR4U54D2STITC,1766431450,
 	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\share\assetconvert\xmodelmipvol\v1\c_zom_der_zombie_body1_g_upclean_b079659052b161e0,1766431450,
 xmodelmesh,c_zom_der_zombie_body1_g_rarmoff_LOD045c7f3ee
 image,i_c_gen_gib_alpha_c
@@ -896,20 +896,20 @@ xmodel,c_zom_der_zombie_body1_g_rarmoff
 	gdt,xmodel,c_zom_der_zombie_body1_g_rarmoff,FD-C2-D5-79-5D-63-66-DB-BF-AB-C3-C9-A1-7E-BF-D9
 	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\model_export\t7_characters\zombies\zombies\c_zom_der_zombie_body1_g_rarmoff_LOD0.XMODEL_BIN,1766516329,
 	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\share\assetconvert\xmesh\v6\c_zom_der_zombie_body1_g_rarmoff_lod0_f0_s1.000000_geo_CTM2GN7HX3JGH6TY4TLWMMO6OK,1766431450,
-	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\model_export\t7_characters\zombies\zombies\c_zom_der_zombie_body1_g_rarmoff_LOD2.XMODEL_BIN,1766516378,
-	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\model_export\t7_characters\zombies\zombies\c_zom_der_zombie_body1_g_rarmoff_LOD3.XMODEL_BIN,1766516357,
 	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\model_export\xmodel_multiplayer\multiPlayer_HitBoxModelChar.xmodel_bin,1766516550,
-	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\model_export\t7_characters\zombies\zombies\c_zom_der_zombie_body1_g_rarmoff_LOD1.XMODEL_BIN,1766516329,
 	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\model_export\t7_characters\zombies\zombies\c_zom_der_zombie_body1_g_rarmoff_LOD4.XMODEL_BIN,1766516573,
+	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\model_export\t7_characters\zombies\zombies\c_zom_der_zombie_body1_g_rarmoff_LOD1.XMODEL_BIN,1766516329,
 	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\model_export\t7_characters\zombies\zombies\c_zom_der_zombie_body1_g_rarmoff_LOD6.XMODEL_BIN,1766516377,
+	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\model_export\t7_characters\zombies\zombies\c_zom_der_zombie_body1_g_rarmoff_LOD3.XMODEL_BIN,1766516357,
+	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\model_export\t7_characters\zombies\zombies\c_zom_der_zombie_body1_g_rarmoff_LOD2.XMODEL_BIN,1766516378,
 	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\model_export\t7_characters\zombies\zombies\c_zom_der_zombie_body1_g_rarmoff_LOD5.XMODEL_BIN,1766516531,
-	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\share\assetconvert\xmesh\v6\c_zom_der_zombie_body1_g_rarmoff_lod2_f0_s1.000000_geo_DUP4T5JVNZHGMYQLQQHQ74RZZ5,1766431451,
-	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\share\assetconvert\xmesh\v6\c_zom_der_zombie_body1_g_rarmoff_lod3_f0_s1.000000_geo_DPSNUY52PPUDLFXIVPPETY4V44,1766431451,
 	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\share\assetconvert\xmesh\v6\multiplayer_hitboxmodelchar_f0_s1.000000_geo_7N34ISJXWT7R4ABBH2HBCKZKZ7,1766431436,
-	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\share\assetconvert\xmesh\v6\c_zom_der_zombie_body1_g_rarmoff_lod5_f0_s1.000000_geo_WIWB2OPYXMWD5UZK6YBKVZHKPO,1766431451,
 	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\share\assetconvert\xmesh\v6\c_zom_der_zombie_body1_g_rarmoff_lod4_f0_s1.000000_geo_ZJKRGHBJOR5VMR5MAH5X2BYRY3,1766431451,
+	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\share\assetconvert\xmesh\v6\c_zom_der_zombie_body1_g_rarmoff_lod2_f0_s1.000000_geo_DUP4T5JVNZHGMYQLQQHQ74RZZ5,1766431451,
 	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\share\assetconvert\xmesh\v6\c_zom_der_zombie_body1_g_rarmoff_lod6_f0_s1.000000_geo_YPJYINITXJNP5WE2R2HLQK5Y5S,1766431451,
+	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\share\assetconvert\xmesh\v6\c_zom_der_zombie_body1_g_rarmoff_lod3_f0_s1.000000_geo_DPSNUY52PPUDLFXIVPPETY4V44,1766431451,
 	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\share\assetconvert\xmesh\v6\c_zom_der_zombie_body1_g_rarmoff_lod1_f0_s1.000000_geo_TIXUBVMX4Z4654EX7H5TPZATUB,1766431451,
+	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\share\assetconvert\xmesh\v6\c_zom_der_zombie_body1_g_rarmoff_lod5_f0_s1.000000_geo_WIWB2OPYXMWD5UZK6YBKVZHKPO,1766431451,
 	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\share\assetconvert\xmodelmipvol\v1\c_zom_der_zombie_body1_g_rarmoff_1c34288fb661e57f,1766431452,
 xmodelmesh,c_zom_der_zombie_body1_g_larmoff_LOD0816778e7
 xmodelmesh,c_zom_der_zombie_body1_g_larmoff_LOD16244671
@@ -934,26 +934,26 @@ xmodel,c_zom_der_zombie_body1_g_larmoff
 	gdt,xmodel,c_zom_der_zombie_body1_g_larmoff,AE-07-AE-70-67-BA-F1-56-EA-D9-0C-88-90-CB-5C-A7
 	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\model_export\t7_characters\zombies\zombies\c_zom_der_zombie_body1_g_larmoff_LOD0.XMODEL_BIN,1766516329,
 	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\share\assetconvert\xmesh\v6\c_zom_der_zombie_body1_g_larmoff_lod0_f0_s1.000000_geo_FCXMFHE4WMHDRHF3JV4UIL5B5E,1766431452,
-	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\model_export\t7_characters\zombies\zombies\c_zom_der_zombie_body1_g_larmoff_LOD2.XMODEL_BIN,1766516357,
-	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\model_export\t7_characters\zombies\zombies\c_zom_der_zombie_body1_g_larmoff_LOD1.XMODEL_BIN,1766516329,
 	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\model_export\xmodel_multiplayer\multiPlayer_HitBoxModelChar.xmodel_bin,1766516550,
-	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\model_export\t7_characters\zombies\zombies\c_zom_der_zombie_body1_g_larmoff_LOD4.XMODEL_BIN,1766516352,
-	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\share\assetconvert\xmesh\v6\c_zom_der_zombie_body1_g_larmoff_lod2_f0_s1.000000_geo_TBC2KCUBL5SYX6BTAHLAJVBKFN,1766431452,
-	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\model_export\t7_characters\zombies\zombies\c_zom_der_zombie_body1_g_larmoff_LOD3.XMODEL_BIN,1766516485,
 	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\model_export\t7_characters\zombies\zombies\c_zom_der_zombie_body1_g_larmoff_LOD6.XMODEL_BIN,1766516357,
+	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\model_export\t7_characters\zombies\zombies\c_zom_der_zombie_body1_g_larmoff_LOD1.XMODEL_BIN,1766516329,
+	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\model_export\t7_characters\zombies\zombies\c_zom_der_zombie_body1_g_larmoff_LOD2.XMODEL_BIN,1766516357,
 	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\model_export\t7_characters\zombies\zombies\c_zom_der_zombie_body1_g_larmoff_LOD5.XMODEL_BIN,1766516357,
-	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\share\assetconvert\xmesh\v6\c_zom_der_zombie_body1_g_larmoff_lod1_f0_s1.000000_geo_57HBQBXRKNT3S5RTHSIS3SCV24,1766431452,
+	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\model_export\t7_characters\zombies\zombies\c_zom_der_zombie_body1_g_larmoff_LOD3.XMODEL_BIN,1766516485,
+	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\model_export\t7_characters\zombies\zombies\c_zom_der_zombie_body1_g_larmoff_LOD4.XMODEL_BIN,1766516352,
 	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\share\assetconvert\xmesh\v6\multiplayer_hitboxmodelchar_f0_s1.000000_geo_7N34ISJXWT7R4ABBH2HBCKZKZ7,1766431436,
 	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\share\assetconvert\xmesh\v6\c_zom_der_zombie_body1_g_larmoff_lod6_f0_s1.000000_geo_BZT56FLZ6PWG4X5237PGR7YG4I,1766431452,
+	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\share\assetconvert\xmesh\v6\c_zom_der_zombie_body1_g_larmoff_lod1_f0_s1.000000_geo_57HBQBXRKNT3S5RTHSIS3SCV24,1766431452,
+	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\share\assetconvert\xmesh\v6\c_zom_der_zombie_body1_g_larmoff_lod2_f0_s1.000000_geo_TBC2KCUBL5SYX6BTAHLAJVBKFN,1766431452,
+	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\share\assetconvert\xmesh\v6\c_zom_der_zombie_body1_g_larmoff_lod5_f0_s1.000000_geo_E46SQDRUDRNSYPGD4VKIDT7C7J,1766431452,
 	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\share\assetconvert\xmesh\v6\c_zom_der_zombie_body1_g_larmoff_lod3_f0_s1.000000_geo_M3PMOLI3OQCNURCWRIHET3KM2B,1766431452,
 	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\share\assetconvert\xmesh\v6\c_zom_der_zombie_body1_g_larmoff_lod4_f0_s1.000000_geo_5L4PVQESSLVO4BY5G3GFRXBBB2,1766431452,
-	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\share\assetconvert\xmesh\v6\c_zom_der_zombie_body1_g_larmoff_lod5_f0_s1.000000_geo_E46SQDRUDRNSYPGD4VKIDT7C7J,1766431452,
 	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\share\assetconvert\xmodelmipvol\v1\c_zom_der_zombie_body1_g_larmoff_a7c801755992b34c,1766431452,
 sound,zm_test_map,english
 texturecombo,zm_test_map
 assetlist,zm_test_map
 	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\share\raw\gamedata\playeranim\playeranimtypes.txt,1766516447,
-	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\usermaps\zm_test_map\zone_source\loc\zm_test_map.zone,1766966153,2ffcc046,82e518a2,7a0d5ece,78b849e0
+	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\usermaps\zm_test_map\zone_source\loc\zm_test_map.zone,1766989498,2ffcc046,82e518a2,7a0d5ece,78b849e0
 	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\share\zone_source\zm_mod_level.class,1766516404,ae12865e,d62ed484,07d894e4,fc41b0d2
 	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\share\zone_source\zm_mod.class,1766516403,
 	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\share\zone_source\mod_default.class,1766516570,
@@ -995,5 +995,5 @@ assetlist,zm_test_map
 	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\share\raw\sound\contexts\water.ctx,1766516614,
 	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\share\raw\sound\globals\master.csv,1766516461,
 	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\share\raw\sound\globals\futz.csv,1766516509,
-	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\usermaps\zm_test_map\english\sound\zone\zm_test_map.english.alias.sz,1766966160,
+	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\usermaps\zm_test_map\english\sound\zone\zm_test_map.english.alias.sz,1766989505,
 errorcount,0
