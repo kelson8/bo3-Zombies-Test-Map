@@ -94,8 +94,9 @@ function initMenuOpts()
 
     self addOpt("test_mods", "Print zombie count", &menu_functions::func_getAmountOfZombies);
 
-    self addOpt("test_mods", "Turn on zombie counter", &menu_functions::func_turnOnZombieCounter);
-    self addOpt("test_mods", "Turn off zombie counter", &menu_functions::func_turnOffZombieCounter);
+    // These just break the zombie counter, it won't turn back on.
+    // self addOpt("test_mods", "Turn on zombie counter", &menu_functions::func_turnOnZombieCounter);
+    // self addOpt("test_mods", "Turn off zombie counter", &menu_functions::func_turnOffZombieCounter);
 
     
     // This doens't work

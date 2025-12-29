@@ -1,4 +1,18 @@
 //---------
+// Misc Options
+//---------
+
+// Set the perk limit for the map here
+#define PERK_LIMIT 10
+
+//---------
+// Zombie Counter
+//---------
+
+// If this is enabled, the zombie counter is active in game.
+#define ZOMBIE_COUNTER 1
+
+//---------
 // Developer options
 //---------
 

@@ -36,6 +36,11 @@
 #using scripts\zm\_zm_perk_quick_revive;
 #using scripts\zm\_zm_perk_sleight_of_hand;
 #using scripts\zm\_zm_perk_staminup;
+// New for Widows Wine
+#using scripts\zm\_zm_perk_widows_wine;
+
+// Gobblegums
+#using scripts\zm\_zm_bgb_machine;
 
 //Powerups
 #using scripts\zm\_zm_powerup_double_points;
@@ -108,9 +113,6 @@ function main()
 	// Max starting points for starting the map with high start points enabled.
 	max_starting_points = 30000;
 
-	// Zombie counter toggle
-	zombie_counter = true;
-
 	// Remove powerups toggle, remove the nuke and carpenter.
 	remove_powerups = true;
 
@@ -150,7 +152,7 @@ function main()
 	level thread zm_zonemgr::manage_zones( init_zones );
 
 	// Zombie counter that displays on screen
-	if(zombie_counter)
+	if(ZOMBIE_COUNTER == 1)
 	{
 		level.zombie_counter_enabled = true;
 		zombie_counter::init_zombie_counter();
@@ -245,8 +247,8 @@ function main()
 	thread introText();
 
 	// New, from my zm_test map
-	// Set the perk purchase limit here
-	level.perk_purchase_limit = 20;
+	// Set the perk purchase limit in zm_test_map.gsh
+	level.perk_purchase_limit = PERK_LIMIT;
 }
 
 //-----------

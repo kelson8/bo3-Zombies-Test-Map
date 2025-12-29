@@ -1,9 +1,14 @@
 xmodel,avgArea (min 50.0),triCount (max 0),dimX,dimY,dimZ,volume,refs
 p7_zm_vending_packapunch,41.29,737,85.53,48.12,86.44,355755.25,1
 p7_zm_vending_packapunch_on,41.29,737,85.53,48.12,86.44,355755.25,1
+p7_aqu_stairs_metal_01_64,38.31,502,99.00,68.56,64.00,434428.13,3
+p7_cai_hotel_rooftop_fence_door,46.48,310,56.03,4.05,103.14,23411.01,2
 p7_cai_chair_lounge_greek,19.62,286,33.40,28.64,44.18,42263.77,2
-p7_cinder_block,4.99,148,16.16,6.23,8.01,807.17,5
+p7_cinder_block,4.99,148,16.16,6.23,8.01,807.17,9
+p7_aqu_railings_set_metal_128,31.28,120,5.43,128.00,32.00,22249.35,4
 p7_cord_extension_hanging,17.81,97,8.47,26.25,49.79,11072.50,2
+p7_aqu_railings_set_metal_64,25.90,72,5.43,64.00,32.00,11124.73,2
+p7_aqu_railings_set_metal_end_32,21.09,54,5.43,33.72,32.00,5860.59,2
 p7_zm_der_pswitch_handle,8.56,44,18.42,4.44,25.20,2060.67,1
 c_zom_der_zombie_helmet1,7.07,32,10.01,10.56,9.27,979.39,1
 p7_zm_der_magic_box_fake,28.14,20,12.97,10.80,14.06,1970.22,1
@@ -21,3 +26,4 @@ p7_zm_der2_vending_packapunch_sign_wait,27.90,16,20.44,0.25,21.56,111.32,1
 p7_gib_chunk_meat_03,4.97,15,3.14,6.78,7.21,153.74,1
 c_zom_zod_zombie_fem_body1_g_larmspawn,0.75,15,10.08,4.44,4.24,189.80,1
 c_zom_zod_zombie_fem_body1_g_llegspawn,8.84,15,11.92,8.81,4.88,512.85,1
+p7_aqu_railings_set_end_post_45_metal,33.50,12,5.56,5.70,32.00,1013.59,3
