@@ -18,3 +18,7 @@ zone_source/all/scriptgdb/scripts/orng
 zone_source/all/scriptgdb/scripts/_zk
 
 tmp_scripts/
+
+# I need to clean this file up before I commit it.
+Changelog.md
+Changelog copy.md

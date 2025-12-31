@@ -86,6 +86,10 @@ function initElevatorVariables()
     // TODO Fix this to where the elevator is only active with the power on.
     level.autoOpenDoors = true;
 
+    // If the elevator requires power, don't allow the platform or doors to open without it being on.
+    // This should also disable the call buttons without power
+    level.elevatorRequiresPower = false;
+
     // level.topDoorsOpen = undefined;
     // Closed by default, I did have these set to undefined but I don't want to deal with that right now.
     level.topDoorsOpen = false;
@@ -111,6 +115,10 @@ function initElevatorVariables()
     if(level.autoOpenDoors)
     {
         openBottomElevatorDoors();
+        // This works for opening the elevator doors with power only.
+        // TODO Setup hint string for when power is off, say "Elevator requires power"
+        // thread activateElevatorWithPower();
+
         // openTopElevatorDoors();
     }
 
@@ -140,6 +148,7 @@ function initElevatorVariables()
 
 // TODO Make the elevator bottom doors automatically open with power.
 // TODO Make the elevator only work when the power is on.
+// Is this really needed? All it does is call the 'openBottomElevatorDoors' function...
 function openBottomDoorsWithPower()
 {
     openBottomElevatorDoors();
@@ -248,6 +257,11 @@ function bottomFloorElevatorCallButton()
     self endon("disconnect");
 	level endon("end_game");
 
+    if(level.elevatorRequiresPower)
+    {
+        level flag::wait_till("power_on");
+    }
+
     level.elevatorBottomFloorCallButton SetHintString("Press &&1 to call elevator.");
 
     while (true)
@@ -267,6 +281,11 @@ function topFloorElevatorCallButton()
 {
     self endon("disconnect");
 	level endon("end_game");
+
+    if(level.elevatorRequiresPower)
+    {
+        level flag::wait_till("power_on");
+    }
 
     // Well this hint string never comes back lol
     level.elevatorTopFloorCallButton SetHintString("Press &&1 to call elevator.");
@@ -300,6 +319,13 @@ function elevatorBottomPlatformTrigger()
     self endon("disconnect");
 	level endon("end_game");
 
+    if(level.elevatorRequiresPower)
+    {
+        // Possibly put a hint string so the player knows it needs power?
+        // level.elevatorBottomPlatformTrigger SetHintString("Elevator requires power");
+        level flag::wait_till("power_on");
+    }
+
     level.elevatorBottomPlatformTrigger SetHintString("Press &&1 to use elevator");
     while (true)
     {
@@ -318,6 +344,11 @@ function elevatorTopPlatformTrigger()
 {
     self endon("disconnect");
 	level endon("end_game");
+
+    if(level.elevatorRequiresPower)
+    {
+        level flag::wait_till("power_on");
+    }
 
     level.elevatorTopPlatformTrigger SetHintString("Press &&1 to use elevator");
     while (true)

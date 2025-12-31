@@ -37,33 +37,42 @@
 // Triggers
 
 // Dev teleport features, these will only be enabled if 'DEV_TELEPORT_TRIGGERS' is enabled in zm_test_map.gsh.
-// TODO Consolidate the triggers in this function, use switch statements or something if possible.
-// TODO Make this work more then once, the text stays on screen but it won't teleport the player more then once.
-// Well this almost works, it works once then the trigger doesn't work anymore.
-function devTriggersUse()
+
+// TODO Test these, these are untested like this.
+// TODO: Make these have a cooldown, and add a cost to them if I want to keep them in the map.
+
+// Teleport player outside
+function teleportDevTrigger1Use()
 {
 	// teleport_player_devloc1
-	// Teleport player outside
-	trig1 = GetEnt("teleport_player_devloc1", "targetname");
-
+	teleportTrigger1 = GetEnt("teleport_player_devloc1", "targetname");
 	hintTextTrig1 = "Press &&1 to teleport to the dev test area";
 
-	trig1 SetHintString(hintTextTrig1);
+	teleportTrigger1 SetHintString(hintTextTrig1);
 
-	trig1 waittill("trigger", player);
+	while (true)
+	{
+		teleportTrigger1 waittill("trigger", player);
 
-    // Outside coords
-	player SetOrigin((-1428, 785, 0.5));
+		// if()
+		player SetOrigin((-1428, 785, 0.5));
+	}
+}
 
-	// Teleport player back inside
-	trig2 = GetEnt("teleport_player_devloc2", "targetname");
+// Teleport player back inside
+function teleportDevTrigger2Use()
+{
+	teleportTrigger2 = GetEnt("teleport_player_devloc2", "targetname");
 
 	hintTextTrig2 = "Press &&1 to teleport back inside";
 
-	trig2 SetHintString(hintTextTrig2);
+	teleportTrigger2 SetHintString(hintTextTrig2);
 
-	trig2 waittill("trigger", player);
+	while (true) 
+	{
+		teleportTrigger2 waittill("trigger", player);
+		// Inside coords
+		player SetOrigin((-276, 11, 0.5));
+	}
 
-	// Inside coords
-	player SetOrigin((-276, 11, 0.5));
 }

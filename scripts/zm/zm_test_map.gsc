@@ -123,6 +123,14 @@ function main()
 	// This didn't work
 	super_speed_zombies = false;
 
+	// Disable dog rounds if flag is set to 0 in zm_test_map.gsh.
+	// This has to be above the zm_usermap::main
+	// https://wiki.ugx-mods.com/Modding/Black-Ops-3-Modtools/Mapping/Adding-Dog-Spawners-or-Disabling-Dog-Rounds
+	if(DOGS_ENABLED == 0)
+	{
+		level.dog_rounds_allowed = false;
+	}
+
 	zm_usermap::main();
 
 	// Five style teleporter init
@@ -178,12 +186,6 @@ function main()
 		// self SetJumpHeight(100.0);
 	}
 
-	// Disable dog rounds if flag is set to 0 in zm_test_map.gsh.
-	if(DOGS_ENABLED == 0)
-	{
-		level.dog_rounds_allowed = false;
-	}
-
 	// New for trigger testing
 
 	// TODO Set this up
@@ -199,7 +201,12 @@ function main()
 	// TODO Try to make one of these play a sound
 	if(DEV_TELEPORT_TRIGGERS == 1)
 	{
-		level thread zm_dev_functions::devTriggersUse();
+		// level thread zm_dev_functions::devTriggersUse();
+		// I separated these out, and used the same logic I use for the elevators and the loop.
+		// This should work for teleporting between areas, well as long as the zone is active..
+		// TODO Make these check if the zone is active, if not don't teleport!!
+		level thread zm_dev_functions::teleportDevTrigger1Use();
+		level thread zm_dev_functions::teleportDevTrigger2Use();
 	}
 	
 	if(GIVE_WEAPON_TRIGGER == 1)
