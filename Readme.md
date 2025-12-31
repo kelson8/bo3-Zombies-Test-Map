@@ -12,6 +12,14 @@ Dev mode functions can now all be toggled in `zm_test_map.gsh`.
 
 The `map_source` folder contains the required `zm_test_map.map` file for this map.
 
+I now have a basic elevator script along with a prefab for it, 
+so far it mostly works but the hint strings on the call buttons dissappear once they are used.
+It uses the developer block textures for now until I find textures that I like for it.
+
+The elevator prefab is located here: `prefabs/elevator_test1.map`, and the elevator script is located here: `scripts/zm/zm_elevator_functions.gsc`.
+
+
+
 ## Changing the skybox
 To change the skybox, find the `sun_volume` in the map.
 
@@ -63,6 +71,11 @@ The sound fixes from MikeyRay on the modme forums, this fixes the perk jingles, 
 The developer textures from here (I will possibly use this for blocking out textures and temporary stuff on my map.)
 * https://www.devraw.net/approved-assets/verk0/developer-textures
 
+**Not in use below**
+
+The Five Style Teleporters For BO3 (This doesn't seem to work for multiple zones, so I disabled it. It'll kill the player if they go to an inactive zone.):
+* https://www.ugx-mods.com/forum/scripting/91/drag-and-drop-five-style-teleporters-for-bo3/23420/
+
 # License
 My additions and code files in the `scripts/zm` folder are licensed under the GPLv3 license.
 
@@ -80,3 +93,6 @@ The sound fixes from MikeyRay on the modme forums
 
 The developer textures from here
 * https://www.devraw.net/approved-assets/verk0/developer-textures
+
+Five Style Teleporters For BO3 by djluvorng on ugx-mods.com:
+* https://www.ugx-mods.com/forum/scripting/91/drag-and-drop-five-style-teleporters-for-bo3/23420/

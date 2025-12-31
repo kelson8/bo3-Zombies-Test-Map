@@ -1,0 +1,48 @@
+Zone Names:
+
+starting:
+ Name:
+  start_zone
+
+-------
+Inside, rooms
+
+room1:
+ Name:
+  room1_zone
+ 
+ activation script_flag:
+  activate_room1_zone
+
+room2:
+ Name:
+  room2_zone
+ 
+ activation script_flag:
+  activate_room2_zone
+
+pack_room:
+ This zone doesn't have any zombie spawners setup
+ Name:
+  pack_a_punch_room_zone
+ 
+ Activation script_flag:
+  activate_pack_a_punch_room_zone
+ 
+-------
+Outside
+
+outside 1 (Outside of room #2 door, activated by room #2 door):
+ Name:
+  outside_zone1
+ 
+ Activation script flag:
+  activate_zone1_outside
+
+outside 2 (Outside, spawn room door #2)
+ Name:
+  outside_zone2
+
+ Activation script flag:
+  activate_zone2_outside
+

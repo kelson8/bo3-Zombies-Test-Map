@@ -759,6 +759,8 @@ xmodel,p7_cai_table_cafe_01
 xmodel,p7_cai_table_vendor_wood_case
 xmodel,p7_cinder_block
 xmodel,p7_cord_extension_hanging
+xmodel,p7_elevator_call_box
+xmodel,p7_elevator_metal_button_call
 xmodel,p7_lab_sector_door_window
 xmodel,p7_powerstrip_sing
 xmodel,p7_powerstrip_sing_plug
@@ -1162,6 +1164,13 @@ xmodelmesh,p7_cord_extension_hanging_lod06e949912
 xmodelmesh,p7_cord_extension_hanging_lod0c7fcdac6
 xmodelmesh,p7_cord_extension_hanging_lod0f68ab432
 xmodelmesh,p7_cord_extension_hanging_lod0f9e1d4cb
+xmodelmesh,p7_elevator_call_box_lod06ff6e9b0
+xmodelmesh,p7_elevator_call_box_lod0ee2869ee
+xmodelmesh,p7_elevator_metal_button_call_col5a04e54f
+xmodelmesh,p7_elevator_metal_button_call_lod049b90f69
+xmodelmesh,p7_elevator_metal_button_call_lod062337b4e
+xmodelmesh,p7_elevator_metal_button_call_lod082209aef
+xmodelmesh,p7_elevator_metal_button_call_lod0c5a6552f
 xmodelmesh,p7_lab_sector_door_window_colfa1062df
 xmodelmesh,p7_lab_sector_door_window_lod01c913b89
 xmodelmesh,p7_lab_sector_door_window_lod04c4c8ebc
@@ -1312,6 +1321,9 @@ material,mc/mtl_p7_cai_table_vendor_wood_cornermetal_main
 material,mc/mtl_p7_cai_table_vendor_wood_dirt
 material,mc/mtl_p7_cinder_block
 material,mc/mtl_p7_cord_extension_hanging
+material,mc/mtl_p7_elevator_call_box
+material,mc/mtl_p7_elevator_metal_button_call
+material,mc/mtl_p7_elevator_plastic_button_call
 material,mc/mtl_p7_farm_wood_prop_barrel_metal
 material,mc/mtl_p7_lab_sector_door_frame
 material,mc/mtl_p7_lab_sector_door_glass
@@ -1371,6 +1383,8 @@ material,mc/t7_metal_worn_copper_base
 material,mc/t7_rope_nylon_02
 material,mc/t7_wwod_planks_micro
 material,wc/$default3d
+material,wc/ac_prs_grass_distant_a
+material,wc/dev_col_grid_11
 material,wc/dev_col_grid_13
 material,wc/shadowcaster
 material,wc/t7_asphalt_advanced_strips
@@ -1380,6 +1394,7 @@ material,wc/t7_brick_ground_squares_01
 material,wc/t7_brick_worn_dirty_red
 material,wc/t7_brick_worn_dirty_red_wet
 material,wc/t7_cloth_carpet_abstract_01_green
+material,wc/t7_concrete_floor_sealed_01
 material,wc/t7_concrete_wall_blocks_wet
 material,wc/t7_stone_marble_tile_grey
 material,wc/t7_stone_slate_wall
@@ -1391,6 +1406,7 @@ techset,mc/lit_detail_alphatest#e6142445
 techset,mc/lit_emissive_scroll_3layer_transparent#e6142445
 techset,mc/lit_micro_tile_blend_advanced#e6142445
 techset,mc/lit_micro_tiled#e6142445
+techset,mc/lit_micro_tiled_macro_color_advanced#e6142445
 techset,mc/lit_scroll_rotate#e6142445
 techset,mc/sky_hdr#e6142445
 techset,mc/sky_latlong_hdr#e6142445
@@ -1533,6 +1549,14 @@ image,i_mtl_p7_cinder_block_detail_n
 image,i_mtl_p7_cinder_block_n
 image,i_mtl_p7_cord_extension_hanging_c
 image,i_mtl_p7_cord_extension_hanging_n
+image,i_mtl_p7_elevator_call_box_c
+image,i_mtl_p7_elevator_call_box_n
+image,i_mtl_p7_elevator_call_box_o
+image,i_mtl_p7_elevator_metal_button_call_c
+image,i_mtl_p7_elevator_metal_button_call_g
+image,i_mtl_p7_elevator_metal_button_call_n
+image,i_mtl_p7_elevator_metal_button_call_s
+image,i_mtl_p7_elevator_plastic_button_call_c
 image,i_mtl_p7_farm_wood_prop_barrel_c
 image,i_mtl_p7_farm_wood_prop_barrel_g
 image,i_mtl_p7_farm_wood_prop_barrel_n
@@ -1672,11 +1696,14 @@ image,i_t7_cloth_carpet_abstract_01_n
 image,i_t7_cloth_leather_white_c
 image,i_t7_concrete_wall_blocks_c
 image,i_t7_concrete_wall_blocks_wet_n
+image,i_t7_concrete_wall_weathered_01_c
+image,i_t7_concrete_wall_weathered_01_n
 image,i_t7_decal_coffee_stain_01_c
 image,i_t7_detail_acrylic_01_n
 image,i_t7_detail_asphalt_01
 image,i_t7_detail_carpet_03
 image,i_t7_detail_concrete_01
+image,i_t7_detail_concrete_02
 image,i_t7_detail_wood_01
 image,i_t7_detail_wood_02
 image,i_t7_glass_smart_02_c
@@ -1684,6 +1711,8 @@ image,i_t7_glass_smart_02_fullspec_s
 image,i_t7_glass_smart_02_g
 image,i_t7_glass_water_stained_c
 image,i_t7_glass_water_stained_g
+image,i_t7_grass_scrub_c
+image,i_t7_grass_scrub_n
 image,i_t7_metal_floor_perforated_01_c
 image,i_t7_metal_floor_perforated_01_n
 image,i_t7_metal_paint_rust_brown_c
@@ -1692,6 +1721,7 @@ image,i_t7_metal_planter_trim_g
 image,i_t7_metal_planter_trim_n
 image,i_t7_metal_planter_trim_o
 image,i_t7_metal_planter_trim_s
+image,i_t7_metal_worn_aluminum_base_g
 image,i_t7_metal_worn_copper_base_c
 image,i_t7_metal_worn_copper_base_g
 image,i_t7_metal_worn_copper_base_n
@@ -1777,6 +1807,7 @@ scriptparsetree,scripts/zm/kcnet_test/menu_functions.gsc
 scriptparsetree,scripts/zm/kcnet_test/menu_util.gsc
 scriptparsetree,scripts/zm/kcnet_test/zombie_counter.gsc
 scriptparsetree,scripts/zm/zm_dev_functions.gsc
+scriptparsetree,scripts/zm/zm_elevator_functions.gsc
 scriptparsetree,scripts/zm/zm_functions.gsc
 scriptparsetree,scripts/zm/zm_test_map.csc
 scriptparsetree,scripts/zm/zm_test_map.gsc

@@ -57,6 +57,12 @@
 
 #using scripts\zm\zm_usermap;
 
+// Five style Teleporter
+// #using scripts\orng\teleporter;
+
+// ZombieKid164's Buyable Elevator
+// #using scripts\_ZK\zk_buyable_elevator;
+
 // New
 #using scripts\zm\_zm_score;
 #using scripts\zm\_zm_perks;
@@ -66,6 +72,7 @@
 // My code
 #using scripts\zm\zm_functions;
 #using scripts\zm\zm_dev_functions;
+#using scripts\zm\zm_elevator_functions;
 
 // Mod menu
 // 
@@ -103,16 +110,6 @@
 
 function main()
 {
-	// Dev features, these shouldn't be enabled if I publish a map.
-	// Enable high starting points (Start with a set amount of points.)
-	high_start_points = false;
-
-	// Set the default starting points for the map here.
-	default_starting_points = 500;
-
-	// Max starting points for starting the map with high start points enabled.
-	max_starting_points = 30000;
-
 	// Remove powerups toggle, remove the nuke and carpenter.
 	remove_powerups = true;
 
@@ -127,6 +124,12 @@ function main()
 	super_speed_zombies = false;
 
 	zm_usermap::main();
+
+	// Five style teleporter init
+	// thread init_power_orng();
+
+	// ZombieKid164's Buyable Elevator
+	// level thread zk_buyable_elevator::init();
 
 	// Setup the voice lines
 	// Not in use
@@ -149,6 +152,11 @@ function main()
 	level.zone_manager_init_func =&usermap_test_zone_init;
 	init_zones[0] = "start_zone";
 	level thread zm_zonemgr::manage_zones( init_zones );
+
+
+	// New for my elevator test functions
+	zm_elevator_functions::initElevatorVariables();
+	//
 
 	// Zombie counter that displays on screen
 	if(ZOMBIE_COUNTER == 1)
@@ -236,13 +244,13 @@ function main()
 	}
 
 	// New
-	if(high_start_points)
+	if(HIGH_START_POINTS == 1)
 	{
-		level.player_starting_points = max_starting_points;
+		level.player_starting_points = HIGH_START_POINTS_AMOUNT;
 	} 
 	else 
 	{
-		level.player_starting_points = default_starting_points;
+		level.player_starting_points = DEFAULT_START_POINTS;
 	}
 	
 
@@ -255,6 +263,15 @@ function main()
 	// Set the perk purchase limit in zm_test_map.gsh
 	level.perk_purchase_limit = PERK_LIMIT;
 }
+
+// Five style teleporter init
+// Well oops, where I didn't have the other zones active it just killed me when I went to them lol.
+// TODO Fix this to work with zones.
+// function init_power_orng() 
+// { 
+// 	level flag::wait_till("power_on");
+// 	teleporter::teleporter_init(); 
+// }
 
 //-----------
 // Copied from zm_test map
@@ -347,6 +364,9 @@ function usermap_test_zone_init()
 	// Start zone to pack a punch room zone, probably not needed
 	// zm_zonemgr::add_adjacent_zone( "start_zone", "pack_a_punch_room_zone", "activate_pack_a_punch_room_zone" );
 
+	// Test zone
+	zm_zonemgr::add_adjacent_zone( "start_zone", "outside_zone2", "activate_zone2_outside" );
+
 	//-----
 	// Room 1 zone
 	
@@ -363,6 +383,13 @@ function usermap_test_zone_init()
 
 	// Room 2 zone to outside zone1
 	zm_zonemgr::add_adjacent_zone( "room2_zone", "outside_zone1", "activate_zone1_outside" );
+
+	//-----
+	// Outside, test zones
+	//-----
+	// For now, I set this up to auto activate in zm_elevator_functions.gsc under the init variables function.
+	// zm_zonemgr::add_adjacent_zone( "test_zone1", "start_zone", "activate_test_zone1" );
+	zm_zonemgr::add_adjacent_zone( "outside_zone2", "start_zone", "activate_zone2_outside" );
 }	
 
 function custom_add_weapons()

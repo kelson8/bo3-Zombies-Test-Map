@@ -27,5 +27,17 @@ scriptparsetree,scripts/zm/zm_dev_functions.gsc
 // New
 scriptparsetree,scripts/zm/zm_functions.gsc
 
+// Custom elevator functions, created by kelson8
+scriptparsetree,scripts/zm/zm_elevator_functions.gsc
+
 // Voice lines
 stringtable,gamedata/audio/zm/zm_theater_vox.csv
+
+//Five style Teleporter
+// Disabled, I cannot get this working right with multiple zones.
+//fx,dlc0/factory/fx_teleporter_beam_factory
+//scriptparsetree,scripts/orng/teleporter.gsc
+
+// ZombieKid164's Buyable Elevator
+// Disabled, need to fix the call button for this.
+//scriptparsetree,scripts/_ZK/zk_buyable_elevator.gsc

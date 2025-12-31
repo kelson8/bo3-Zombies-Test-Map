@@ -14,3 +14,7 @@ zone/snd
 
 # Built files
 zone_source/all/scriptgdb/scripts/zm
+zone_source/all/scriptgdb/scripts/orng
+zone_source/all/scriptgdb/scripts/_zk
+
+tmp_scripts/

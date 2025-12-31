@@ -8,6 +8,17 @@
 // Set the perk limit for the map here
 #define PERK_LIMIT 10
 
+// Setup the high start points and the amount here.
+#define HIGH_START_POINTS 0
+#define HIGH_START_POINTS_AMOUNT 50000
+
+// Setup the default starting points for the map here, normally it is 500.
+#define DEFAULT_START_POINTS 500
+
+// TODO Set these up, automatically turn power on, and automatically open all doors.
+// #define POWER_AUTO_ON 0
+// #define DOORS_AUTO_OPEN 0
+
 // Toggle the dogs here
 // For now due to glitches with the dogs on my map I have turned them off
 // TODO Fix dogs on the map.
@@ -26,7 +37,7 @@
 
 // Enable/disable the mod menu for my map.
 // I may add more to this later.
-#define DEVMODE 1
+#define DEVMODE 0
 
 // #if DEVMODE
 // These are extras for the test triggers that I have setup

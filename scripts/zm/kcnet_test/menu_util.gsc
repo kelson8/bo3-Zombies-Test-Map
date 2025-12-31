@@ -26,6 +26,8 @@ Original source: https://cabconmodding.com/threads/black-ops-3-gsc-mod-menu-base
 #using scripts\zm\kcnet_test\menu_functions;
 #using scripts\zm\kcnet_test\zombie_counter;
 
+// Elevator functions
+#using scripts\zm\zm_elevator_functions;
 
 // TODO Figure out how to add parameters to the methods in the menu.
 
@@ -71,7 +73,9 @@ function initMenuOpts()
 	// self addOpt("main", "All Clients", &subMenu, "main_mods");  
 
 	// New
+    //--------
 	// Test menu
+    //--------
 	self addMenu("test_mods", "Test Mods", "main");
 	self addOpt("main", "Test Mods", &subMenu, "test_mods");
 	// self addOpt("main", "Test", &subMenu, "test_mods");
@@ -107,14 +111,18 @@ function initMenuOpts()
 
 	// self addOpt("test_mods", "Give weapon", &menu_functions::func_giveWeapon);
 
+    //--------
 	// Weapons menu
-	self addMenu("weapon_mods", "Weapon Mods", "main");
+	//--------
+    self addMenu("weapon_mods", "Weapon Mods", "main");
 	self addOpt("main", "Weapon mods", &subMenu, "weapon_mods");
 
 	// TODO Figure out how to use the give weapon function
 	self addOpt("weapon_mods", "Give Raygun", &menu_functions::func_giveRayGun);
 
+    //--------
     // Points menu
+    //--------
     self addMenu("points_menu", "Points Menu", "main");
 	self addOpt("main", "Points menu", &subMenu, "points_menu");
 
@@ -126,7 +134,9 @@ function initMenuOpts()
     self addOpt("points_menu", "Take 10000 points", &menu_functions::func_takePoints, 10000);
     self addOpt("points_menu", "Take 100,000 points", &menu_functions::func_takePoints, 100000);
 
+    //--------
     // Sound effects menu
+    //--------
     self addMenu("soundfx_menu", "Sound Effects", "main");
 	self addOpt("main", "Sound Effects", &subMenu, "soundfx_menu");
     self addOpt("soundfx_menu", "Play Double points sound", &menu_functions::func_sfxDoublePoints);
@@ -139,7 +149,9 @@ function initMenuOpts()
     self addOpt("soundfx_menu", "Play Box move sound", &menu_functions::func_sfxBoxMove);
     self addOpt("soundfx_menu", "Play Dog start sound", &menu_functions::func_sfxDogStart);
 
+    //--------
     // Power ups menu
+    //--------
     self addMenu("powerups_menu", "Powerups", "main");
 	self addOpt("main", "Powerups", &subMenu, "powerups_menu");
     // self addOpt("powerups_menu", "Nuke", &menu_functions::func_sfxDoublePoints);
@@ -157,16 +169,40 @@ function initMenuOpts()
     self addOpt("powerups_menu", "Fire sale", &menu_functions::func_givePowerups, "firesale");
 
     // New
+    //--------
     // Round menu
+    //--------
     self addMenu("round_menu", "Rounds", "main");
     self addOpt("main", "Rounds", &subMenu, "round_menu");
 
     self addOpt("round_menu", "Set round to 5", &menu_functions::func_roundsystem, 5);
 
+    //--------
+    // Elevator debug menu
+    // This is for debugging my elevator scripts to make sure it's working
+    //--------
+    self addMenu("elevator_menu", "Elevator Debug", "main");
+    self addOpt("main", "Elevator Debug", &subMenu, "elevator_menu");
 
+    // Open doors
+    self addOpt("elevator_menu", "Open bottom doors", &zm_elevator_functions::openBottomElevatorDoors);
+    self addOpt("elevator_menu", "Open top doors", &zm_elevator_functions::openTopElevatorDoors);
+
+    // Close doors
+    self addOpt("elevator_menu", "Close bottom doors", &zm_elevator_functions::closeBottomElevatorDoors);
+    self addOpt("elevator_menu", "Close top doors", &zm_elevator_functions::closeTopElevatorDoors);
+
+    // Move platform
+    self addOpt("elevator_menu", "Move platform up", &zm_elevator_functions::moveElevatorPlatformUp);
+    self addOpt("elevator_menu", "Move platform down", &zm_elevator_functions::moveElevatorPlatformDown);
+
+    // Call buttons
+    self addOpt("elevator_menu", "Top floor call button", &zm_elevator_functions::topFloorElevatorCallButton);
+    self addOpt("elevator_menu", "Bottom floor call button", &zm_elevator_functions::bottomFloorElevatorCallButton);
+    //--------
     // Perk menu
-
     // 
+    //--------
 
 	
 	// func_giveAllPerks
@@ -176,8 +212,10 @@ function initMenuOpts()
 	// This might be useful for options that need parameters
 	// self addMenuPar_withDef("main", "Give weapon", &giveWeapon, "weapon_name" )
 
+    //--------
 	// Main menu
-	
+	//--------
+
 	self addMenu("main_mods", "Main Mods", "main");
 	self addOpt("main_mods", "God Mode", &menu_functions::func_godmode);
 	self addOpt("main_mods", "Unlimited Ammo", &menu_functions::func_unlimitedAmmo);
