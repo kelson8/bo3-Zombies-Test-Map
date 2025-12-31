@@ -245,6 +245,9 @@ function moveElevatorUp()
 // Other then that, this elevator mostly works
 function bottomFloorElevatorCallButton()
 {
+    self endon("disconnect");
+	level endon("end_game");
+
     level.elevatorBottomFloorCallButton SetHintString("Press &&1 to call elevator.");
 
     while (true)
@@ -262,6 +265,9 @@ function bottomFloorElevatorCallButton()
 
 function topFloorElevatorCallButton()
 {
+    self endon("disconnect");
+	level endon("end_game");
+
     // Well this hint string never comes back lol
     level.elevatorTopFloorCallButton SetHintString("Press &&1 to call elevator.");
 
@@ -291,6 +297,9 @@ function topFloorElevatorCallButton()
 // Bottom floor trigger, move elevator up.
 function elevatorBottomPlatformTrigger()
 {
+    self endon("disconnect");
+	level endon("end_game");
+
     level.elevatorBottomPlatformTrigger SetHintString("Press &&1 to use elevator");
     while (true)
     {
@@ -307,6 +316,9 @@ function elevatorBottomPlatformTrigger()
 // Top floor trigger, move elevator down.
 function elevatorTopPlatformTrigger()
 {
+    self endon("disconnect");
+	level endon("end_game");
+
     level.elevatorTopPlatformTrigger SetHintString("Press &&1 to use elevator");
     while (true)
     {
