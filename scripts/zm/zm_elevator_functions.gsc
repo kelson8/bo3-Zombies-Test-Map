@@ -20,6 +20,8 @@
 
 #using scripts\shared\ai\zombie_utility;
 
+#insert scripts\zm\zm_elevator_functions.gsh;
+
 // This file was created by kelson8, I took some inspiration from other elevator scripts.
 // For now this is just a very basic script that will open and close the elevator doors 
 // and move the elevator platform up and down.
@@ -53,31 +55,6 @@
 // Top floor: elevator_top_platform_trigger
 // Bottom floor: elevator_bottom_platform_trigger
 
-//-----
-// Elevator variables
-//-----
-
-// Elevator doors
-
-// Set the X position for the elevator doors being open here.
-// Set the doors to open towards the left.
-#define ELEVATOR_DOORS_OPEN_OFFSET 326
-
-// Set the doors close offset, should normally be negative of the open offset.
-#define ELEVATOR_DOORS_CLOSE_OFFSET -326
-
-// Elevator doors move time in seconds
-#define ELEVATOR_DOORS_MOVE_TIME 2
-
-// Elevator platform
-// Move up offset
-#define ELEVATOR_PLATFORM_MOVE_UP_OFFSET 403
-
-// Move down offset
-#define ELEVATOR_PLATFORM_MOVE_DOWN_OFFSET -403
-
-// Time to move
-#define ELEVATOR_PLATFORM_MOVE_TIME 2
 
 // Init function for the elevator variables, place in the main script somewhere under 'zm_usermap::main()'
 function initElevatorVariables()

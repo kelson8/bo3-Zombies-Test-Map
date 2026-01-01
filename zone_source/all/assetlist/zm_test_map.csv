@@ -1994,6 +1994,7 @@ scriptparsetree,scripts/zm/kcnet_test/menu_util.gsc
 scriptparsetree,scripts/zm/kcnet_test/zombie_counter.gsc
 scriptparsetree,scripts/zm/zm_dev_functions.gsc
 scriptparsetree,scripts/zm/zm_elevator_functions.gsc
+scriptparsetree,scripts/zm/zm_elevator_functions.gsh
 scriptparsetree,scripts/zm/zm_functions.gsc
 scriptparsetree,scripts/zm/zm_test_map.csc
 scriptparsetree,scripts/zm/zm_test_map.gsc

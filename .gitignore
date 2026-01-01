@@ -19,6 +19,8 @@ zone_source/all/scriptgdb/scripts/_zk
 
 tmp_scripts/
 
+zone_source/all/assetinfo/*.errorlog
+
 # I need to clean this file up before I commit it.
 Changelog.md
 Changelog copy.md

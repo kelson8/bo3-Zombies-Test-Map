@@ -29,6 +29,7 @@ scriptparsetree,scripts/zm/zm_functions.gsc
 
 // Custom elevator functions, created by kelson8
 scriptparsetree,scripts/zm/zm_elevator_functions.gsc
+scriptparsetree,scripts/zm/zm_elevator_functions.gsh
 
 // Voice lines
 stringtable,gamedata/audio/zm/zm_theater_vox.csv
