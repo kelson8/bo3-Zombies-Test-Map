@@ -43,6 +43,9 @@
 
 function main()
 {
+	// Dobby's Cold War styled Wonderfizz
+	LuiLoad("ui.uieditor.menus.Craftables.WonderfizzMenuBase");
+
 	zm_usermap::main();
 
 	include_weapons();

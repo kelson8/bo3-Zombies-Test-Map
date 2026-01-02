@@ -42,3 +42,6 @@ stringtable,gamedata/audio/zm/zm_theater_vox.csv
 // ZombieKid164's Buyable Elevator
 // Disabled, need to fix the call button for this.
 //scriptparsetree,scripts/_ZK/zk_buyable_elevator.gsc
+
+// Dobby's Cold War styled Wonderfizz
+include,db_wunderfizz

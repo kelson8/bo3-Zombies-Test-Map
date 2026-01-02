@@ -18,7 +18,9 @@ It uses the developer block textures for now until I find textures that I like f
 
 The elevator prefab is located here: `prefabs/elevator_test1.map`, and the elevator script is located here: `scripts/zm/zm_elevator_functions.gsc`.
 
+I have a textured version of the elevator prefab, the one with the dev textures has been renamed to `elevator_test1_old.map` in the prefabs folder.
 
+Now, the map has a Cold War style wunderfizz machine in the first room, which requires power before it'll work.
 
 ## Changing the skybox
 To change the skybox, find the `sun_volume` in the map.
@@ -68,8 +70,11 @@ I added the BO2 perk jingles from here:
 The sound fixes from MikeyRay on the modme forums, this fixes the perk jingles, PPSH weapon firing sounds and other sounds
 * https://forum.modme.co/wiki/threads/3283.html
 
-The developer textures from here (I will possibly use this for blocking out textures and temporary stuff on my map.)
+The developer textures from here (I will be using this for blocking out textures and temporary stuff on my map.)
 * https://www.devraw.net/approved-assets/verk0/developer-textures
+
+Cold war Wunderfizz
+* https://mega.nz/file/YJ4yiBjY#lronc5rcYgxE3JnCNuOcyJVBu0q_eRP8oyl3mNCnJDs
 
 **Not in use below**
 
@@ -78,6 +83,12 @@ The Five Style Teleporters For BO3 (This doesn't seem to work for multiple zones
 
 # License
 My additions and code files in the `scripts/zm` folder are licensed under the GPLv3 license.
+
+Files not under GPLv3 license due to me not creating them:
+* `scripts/zm/_t9_wonderfizz.gsc`
+* `scripts/zm/zombie_counter.gsc`
+
+* Currently, all items in the `ui` folder, I may make some additions once I learn LUA scripting with LUI.
 
 # Credits
 I did not create a lot of assets that are in use for this map, if you like what I am creating with these check out the below for credits to the users that created these maps/perks/assets.
@@ -96,3 +107,7 @@ The developer textures from here
 
 Five Style Teleporters For BO3 by djluvorng on ugx-mods.com:
 * https://www.ugx-mods.com/forum/scripting/91/drag-and-drop-five-style-teleporters-for-bo3/23420/
+
+Cold war Wunderfizz (I don't have the original source to this, it came from the google spreadsheet below):
+* https://docs.google.com/spreadsheets/d/10aQLnuZUgvduFS4zgPNOTBlFbD-pBfpy--Gm9ilIqRg/edit?gid=1848896341#gid=1848896341
+* https://mega.nz/file/YJ4yiBjY#lronc5rcYgxE3JnCNuOcyJVBu0q_eRP8oyl3mNCnJDs

@@ -1,4 +1,6 @@
 xmodel,avgArea (min 50.0),triCount (max 0),dimX,dimY,dimZ,volume,refs
+p9_sur_machine_perk,1.18,74164,52.36,55.39,96.91,281061.97,2
+p9_sur_machine_perk_off,1.18,74164,52.36,55.39,96.91,281061.97,1
 p8_zm_off_lamp_desk,0.54,857,17.16,7.67,22.74,2994.76,2
 p7_zm_vending_packapunch_on,41.29,737,85.53,48.12,86.44,355755.25,1
 p7_zm_vending_packapunch,41.29,737,85.53,48.12,86.44,355755.25,1
@@ -35,9 +37,9 @@ p7_gib_chunk_flesh_02,1.75,16,1.42,5.32,4.56,34.36,1
 p7_gib_chunk_flesh_03,1.63,16,3.89,1.82,4.60,32.62,1
 p7_gib_chunk_bone_01,0.66,16,1.93,2.13,4.84,19.91,1
 p7_gib_chunk_bone_02,0.91,16,2.83,3.32,2.05,19.34,1
-c_zom_zod_zombie_fem_body1_g_rlegspawn,8.35,16,11.92,8.81,4.88,512.85,1
-p7_zm_der2_vending_packapunch_sign_wait,27.90,16,20.44,0.25,21.56,111.32,1
 p7_gib_chunk_bone_03,1.07,16,2.66,4.52,3.11,37.40,1
+p7_zm_der2_vending_packapunch_sign_wait,27.90,16,20.44,0.25,21.56,111.32,1
+c_zom_zod_zombie_fem_body1_g_rlegspawn,8.35,16,11.92,8.81,4.88,512.85,1
 p7_gib_chunk_meat_03,4.97,15,3.14,6.78,7.21,153.74,1
 c_zom_zod_zombie_fem_body1_g_larmspawn,0.75,15,10.08,4.44,4.24,189.80,1
 c_zom_zod_zombie_fem_body1_g_llegspawn,8.84,15,11.92,8.81,4.88,512.85,1
