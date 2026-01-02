@@ -26,6 +26,7 @@ scriptparsetree,scripts/zm/zm_dev_functions.gsc
 
 // New
 scriptparsetree,scripts/zm/zm_functions.gsc
+scriptparsetree,scripts/zm/zm_functions.gsh
 
 // Custom elevator functions, created by kelson8
 scriptparsetree,scripts/zm/zm_elevator_functions.gsc

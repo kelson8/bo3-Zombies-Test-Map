@@ -136,6 +136,12 @@ function main()
 
 	zm_usermap::main();
 
+	
+	// TODO: This might also need to be in the CSC to display the message for it, or some other format for the CSC.
+	// This allows the player to get their first gobblegum for free for each round.
+	// Normally, this is what the base game maps do.
+	setdvar( "scr_firstGumFree", "1" );
+
 	// Five style teleporter init
 	// thread init_power_orng();
 

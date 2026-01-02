@@ -34,6 +34,8 @@
 #using scripts\zm\_zm_audio;
 #using scripts\zm\_zm_weapons;
 
+#insert scripts\zm\zm_functions.gsh;
+
 // TODO Move functions into here
 
 // TODO Check if power is on, if so print "You have turned on the power! Prepare for crawlers and random hellhounds"
@@ -120,7 +122,7 @@ function give_points(amount)
 
 // https://www.youtube.com/watch?v=rhlWM0mJ5vM&list=PL1rMfOFuHfbMzBHibfla9wyCwdfMao0ou&index=3
 // Give the player a perk when the perk bottle is shot on the map.
-
+// Now this function requires the round to be a specific round to work, if it is on that round or above that round it'll run.
 function givePlayerPerkTriggerUse()
 {
 	trig = GetEnt("give_player_perk", "targetname");
@@ -129,16 +131,29 @@ function givePlayerPerkTriggerUse()
 	// Get the bottles target name from the trigger
 	bottle = GetEnt(trig.target, "targetname");
 
-	trig waittill("trigger", player);
+	while (true)
+	{
+		if(level.round_number >= GIVE_PERK_TRIGGER_ROUND)
+		{
+			trig waittill("trigger", player);
 
-	// Remove the perk bottle
-	bottle Delete();
+			// Remove the perk bottle
+			bottle Delete();
 
-	// Give the player a random perk
-	player zm_perks::give_random_perk();
+			// Give the player a random perk
+			player zm_perks::give_random_perk();
 
-	// Remove the trigger
-	trig Delete();
+			// Remove the trigger
+			trig Delete();
+		}
+		else
+		{
+			// Wait to prevent crashing
+			wait 0.5;
+		}
+	}
+
+
 }
 
 // Basic test to display some text with the trigger
@@ -159,7 +174,6 @@ function triggerTest()
 // https://www.youtube.com/watch?v=midIUORXf10&list=PL1rMfOFuHfbMzBHibfla9wyCwdfMao0ou&index=2
 // Give the player a weapon from a use trigger
 // Well this shows the hint string, but doesn't give the player a weapon.
-// TODO Setup a function that gives the player a random weapon
 function giveWeaponTriggerUse(weapon)
 {
 	trig = GetEnt("give_player_weapon", "targetname");
@@ -216,25 +230,41 @@ function giveWeaponTriggerUse(weapon)
 }
 
 
+// TODO Possibly make this require the power also? Not sure if I should, or make it to where the player has to pay for it.
 // Modified from above trigger, this one gives the player a random weapon.
 // So far, its just SMGs.
+// Now this function requires the round to be a specific round to work, if it is on that round or above that round it'll run.
 function giveRandomWeaponTriggerUse()
 {
 	trig = GetEnt("give_player_weapon", "targetname");
 	trig UseTriggerRequireLookAt();
-
-	// &&1 Should replace the key with the action button, although I'm not sure how this works.
 	
-	hintText = "Press &&1 to take a random weapon";
+	// This loop actually fixed it, I figured it would crash.
+	while (true)
+	{
+		if(level.round_number >= GIVE_WEAPON_TRIGGER_ROUND)
+		{
+			// &&1 Should replace the key with the action button, although I'm not sure how this works.
 	
-	trig SetHintString(hintText);
+			hintText = "Press &&1 to take a random weapon";
 
-	trig waittill("trigger", player);
+			trig SetHintString(hintText);
 
-	player giveRandomWeapon();
+			trig waittill("trigger", player);
 
-	// Remove the trigger so it doesn't show up anymore.
-	trig Delete();
+			player giveRandomWeapon();
+
+			// Remove the trigger so it doesn't show up anymore.
+			trig Delete();
+		}
+		else
+		{
+			// Small wait to prevent crashing
+			wait 0.5;
+			hintText = "This will be available after round " + GIVE_WEAPON_TRIGGER_ROUND;
+			trig SetHintString(hintText);
+		}
+	}
 }
 
 

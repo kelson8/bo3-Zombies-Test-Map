@@ -2199,6 +2199,7 @@ scriptparsetree,scripts/zm/zm_dev_functions.gsc
 scriptparsetree,scripts/zm/zm_elevator_functions.gsc
 scriptparsetree,scripts/zm/zm_elevator_functions.gsh
 scriptparsetree,scripts/zm/zm_functions.gsc
+scriptparsetree,scripts/zm/zm_functions.gsh
 scriptparsetree,scripts/zm/zm_test_map.csc
 scriptparsetree,scripts/zm/zm_test_map.gsc
 scriptparsetree,scripts/zm/zm_test_map.gsh

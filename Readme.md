@@ -76,6 +76,9 @@ The developer textures from here (I will be using this for blocking out textures
 Cold war Wunderfizz
 * https://mega.nz/file/YJ4yiBjY#lronc5rcYgxE3JnCNuOcyJVBu0q_eRP8oyl3mNCnJDs
 
+L3akMod for Lua:
+* https://wiki.modme.co/wiki/black_ops_3/lua_(lui)/Installation.html
+
 **Not in use below**
 
 The Five Style Teleporters For BO3 (This doesn't seem to work for multiple zones, so I disabled it. It'll kill the player if they go to an inactive zone.):
